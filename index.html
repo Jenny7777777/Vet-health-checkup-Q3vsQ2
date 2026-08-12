@@ -1,0 +1,565 @@
+<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2026 健檢方案｜Q2 · Q3 開跑 26 天推廣成效比較（各院）</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#FCF8F0;--paper:#FFFDF8;--gold:#B08D4F;--gold-l:#D8BE8B;--red:#9E3B32;
+--brown:#6B5540;--teal:#4A7C74;--ink:#3A2E22;--ink-soft:#7A6A55;--ink-faint:#A8997F;
+--line:#E4D9C4;--line-soft:#F0E8D8;--shadow:0 2px 10px rgba(107,85,64,.07)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);
+font-family:"Noto Sans TC","Helvetica Neue",Arial,sans-serif;font-size:15px;line-height:1.75}
+h1,h2,h3,.serif{font-family:"Noto Serif TC",Georgia,serif}
+header{background:linear-gradient(160deg,#4A3B2C 0%,#6B5540 60%,#8A6E4F 100%);color:#F7F1E4;padding:52px 24px 40px}
+.hw{max-width:1200px;margin:0 auto}
+header .eyebrow{font-size:12.5px;letter-spacing:.22em;color:var(--gold-l);text-transform:uppercase}
+header h1{font-size:31px;margin:12px 0 6px;font-weight:900;line-height:1.35}
+header .sub{font-size:14.5px;color:#E0D4BC;max-width:860px}
+header .tags{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px}
+header .tg{background:rgba(255,255,255,.11);border:1px solid rgba(216,190,139,.4);
+border-radius:20px;padding:4px 13px;font-size:12.5px;color:#F0E6D2}
+nav{position:sticky;top:0;z-index:20;background:rgba(252,248,240,.96);
+border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+nav .nw{max-width:1200px;margin:0 auto;padding:10px 24px;display:flex;flex-wrap:wrap;gap:4px}
+nav a{color:var(--brown);text-decoration:none;font-size:13px;padding:5px 11px;border-radius:6px}
+nav a:hover{background:#EFE5D0;color:var(--red)}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+section{padding:40px 0 8px}
+h2{font-size:23px;margin:0 0 6px;padding-bottom:10px;border-bottom:2px solid var(--gold);
+display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h2 .en{font-family:"Noto Sans TC";font-size:12px;letter-spacing:.15em;color:var(--ink-faint);
+font-weight:400;text-transform:uppercase}
+h3{font-size:17px;margin:22px 0 8px;color:var(--brown)}
+p.lead{color:var(--ink-soft);font-size:14.5px;margin:12px 0 18px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:12px;
+padding:18px 20px;box-shadow:var(--shadow);margin:14px 0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:16px 0}
+.kpi{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:15px 16px;box-shadow:var(--shadow)}
+.kpi.hl{border-top:4px solid var(--gold)}.kpi.hlr{border-top:4px solid var(--red)}
+.kpi.hlt{border-top:4px solid var(--teal)}
+.kpi .lab{font-size:12.5px;color:var(--ink-soft)}
+.kpi .big{font-family:"Noto Serif TC";font-size:26px;font-weight:900;color:var(--brown);line-height:1.25;margin:2px 0}
+.kpi .sm{font-size:12px;color:var(--ink-faint)}
+table.tbl{width:100%;border-collapse:collapse;font-size:13.5px}
+table.tbl th{background:#F3EAD6;color:var(--brown);font-weight:700;padding:9px 8px;
+text-align:center;border-bottom:2px solid var(--gold-l);white-space:nowrap;font-size:12.5px}
+table.tbl td{padding:8px;text-align:center;border-bottom:1px solid var(--line-soft)}
+table.tbl td.lft{text-align:left;font-weight:500}
+table.tbl td.num{text-align:right;font-variant-numeric:tabular-nums}
+table.tbl tr.tot td{background:#EFE3C9;font-weight:700;border-top:2px solid var(--gold)}
+table.tbl tr.sub td{background:#FAF4E8;font-weight:600}
+table.tbl tr.hq td{background:#F7F4EE;color:var(--ink-soft)}
+table.tbl tr.off td{background:#FBF0EE;color:#8C6A63}
+table.tbl tr.bad td{background:#FBF0EE}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.barwrap{height:6px;background:#EDE3CF;border-radius:3px;overflow:hidden;margin-top:4px;min-width:52px}
+.bar{height:100%;border-radius:3px}
+.d{font-weight:700;font-size:12.5px;font-variant-numeric:tabular-nums}
+.d.up{color:var(--teal)}.d.dn{color:var(--red)}.d.fl{color:var(--ink-faint)}.d.nw{color:var(--gold)}
+.note{background:#F7F1E2;border-left:4px solid var(--gold);border-radius:0 8px 8px 0;
+padding:13px 16px;font-size:13.5px;color:var(--brown);margin:14px 0}
+.note.warn{background:#FBF0EE;border-left-color:var(--red)}
+.note.ok{background:#EEF5F3;border-left-color:var(--teal)}
+.note b{color:var(--red)}.note.ok b{color:var(--teal)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:860px){.grid2{grid-template-columns:1fr}}
+.bc{background:var(--paper);border:1px solid var(--line);border-radius:12px;
+box-shadow:var(--shadow);overflow:hidden;margin:14px 0}
+.bc .hd{padding:13px 18px;background:#F3EAD6;border-bottom:1px solid var(--line);
+display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.bc .hd .nm{font-family:"Noto Serif TC";font-size:18px;font-weight:700;color:var(--brown)}
+.bc .hd .nm .g{font-size:11px;font-weight:400;color:var(--ink-faint);margin-left:8px;
+border:1px solid var(--line);border-radius:10px;padding:1px 8px;vertical-align:2px}
+.bc .bd{padding:16px 18px}
+.mini{display:grid;grid-template-columns:repeat(auto-fit,minmax(124px,1fr));gap:10px;margin-bottom:12px}
+.mini .m{background:#FAF6EC;border:1px solid var(--line-soft);border-radius:8px;padding:9px 11px}
+.mini .m .l{font-size:11.5px;color:var(--ink-soft)}
+.mini .m .v{font-family:"Noto Serif TC";font-size:18px;font-weight:700;color:var(--brown);line-height:1.3}
+.mini .m .s{font-size:11px;color:var(--ink-faint)}
+.obs{font-size:13.5px;color:var(--brown);background:#F7F1E2;border-left:3px solid var(--gold-l);
+padding:10px 14px;border-radius:0 6px 6px 0;margin-top:10px}
+.pill{display:inline-block;border-radius:11px;padding:1px 9px;font-size:11.5px;font-weight:700}
+.pill.up{background:#E4EFEC;color:var(--teal)}.pill.dn{background:#F7E6E3;color:var(--red)}
+.pill.nw{background:#F5EBD6;color:var(--gold)}.pill.off{background:#EDE7DC;color:var(--ink-soft)}
+ol.clean,ul.clean{padding-left:20px}ol.clean li,ul.clean li{margin-bottom:10px}
+.q3only{display:inline-block;background:#F5EBD6;color:var(--gold);border-radius:4px;
+padding:0 6px;font-size:11px;font-weight:700;margin-left:6px;vertical-align:2px}
+.rev{background:#F2EDE3;border:1px dashed var(--gold);border-radius:10px;padding:14px 18px;margin:16px 0;font-size:13.5px}
+.rev h3{margin:0 0 8px;font-size:15.5px;color:var(--red)}
+code{background:#F3EAD6;padding:1px 5px;border-radius:4px;font-size:12.5px;color:var(--brown)}
+footer{margin-top:44px;background:#4A3B2C;color:#D8CDB8;padding:26px 24px;font-size:12.5px;text-align:center;line-height:1.9}
+.stamp{display:inline-block;border:1.5px solid var(--red);color:var(--red);border-radius:6px;
+padding:2px 10px;font-size:12px;font-weight:700;letter-spacing:.1em}
+</style></head><body><header><div class="hw">
+<div class="eyebrow">LKAH · Campaign Comparative Review </div>
+<h1>2026 健檢方案｜Q2 · Q3 開跑 26 天推廣成效比較</h1>
+<div class="sub">以「活動起跑後第 1–26 天」為統一觀測窗，就 14 院逐院比較春季（Q2）與秋季（Q3）方案之推廣表現、案件結構與加購轉化，並附案例分析與建議事項。</div>
+<div class="tags"><span class="tg">Q2 觀測窗 2026/03/16 – 04/10</span>
+<span class="tg">Q3 觀測窗 2026/07/15 – 08/09</span>
+<span class="tg">Q2 有效 86 件</span><span class="tg">Q3 計入 100 件</span>
+<span class="tg">Q3 未結算 · 試算</span></div></div></header>
+<nav><div class="nw"><a href="#s1">口徑聲明</a><a href="#s2">整體對比</a>
+<a href="#s3">各院總表</a><a href="#s4">逐院分析</a><a href="#s5">結構位移</a><a href="#s6">加購結構</a>
+<a href="#s7">健檢情境</a><a href="#s8">醫師成效</a><a href="#s9">案例分析</a><a href="#s10">結論建議</a>
+<a href="#s11">資料缺口</a></div></nav><div class="wrap"><section id="s1"><h2>一、比較基準與口徑聲明<span class="en">Basis of Comparison</span></h2>
+<p class="lead">兩季規則不盡相同，以下逐項說明處理方式。所有數字均可回溯至案件層逐項明細。</p>
+<div class="card"><div class="scroll"><table class="tbl">
+<tr><th style="width:14%">項目</th><th style="width:29%">Q2（春季）</th><th style="width:29%">Q3（秋季）</th><th style="width:28%">本報告處理</th></tr>
+<tr><td class="lft">觀測窗</td><td>2026/03/16 – 04/10</td><td>2026/07/15 – 08/09</td><td class="lft">同為 26 個日曆日；兩季實際有案件日數均為 25 天，無需營業日校正</td></tr>
+<tr><td class="lft">統計基礎</td><td>已審核有效案件（全期 366 件中切窗 86 件）</td><td>最終判定「通過」100 件</td><td class="lft">待複核 7 件、違規 6 件依既定原則<b>一律不計入統計</b></td></tr>
+<tr><td class="lft">金額計算</td><td>逐項明細（含 4 筆折讓負值）</td><td>逐項明細（含 2 筆折讓負值）</td><td class="lft">兩季採同一套項目歸類標準；折讓一律以淨額計入，案件明細合計與就診總額逐案對帳零誤差</td></tr>
+<tr class="off"><td class="lft">重複明細更正</td><td>無</td><td>九如分院 08/01 一件之明細於系統匯出時整份重複</td><td class="lft">依逐案審核註記更正，該件客單由 $23,020 改列 <b>$11,510</b>；Q3 計入營收由 $516,204 更正為 <b>$504,694</b></td></tr>
+<tr><td class="lft">結算狀態</td><td>已結算最終值</td><td>在途值（尚未結算）</td><td class="lft">Q3 數字先天略偏高，全篇標示<span class="stamp">試算</span></td></tr>
+<tr><td class="lft">認定情境</td><td>健檢為主要目的；洗牙、皮膚病等因病就醫情境排除</td><td>放寬為疫苗、結紮、皮膚病、洗牙四類搭配得計入</td><td class="lft">依裁示<b>不做數值扣除</b>；新增情境（洗牙 3 件、皮膚病 2 件）標示為 Q3 新機制之貢獻</td></tr>
+<tr><td class="lft">疫苗定位</td><td>健檢當次同時施打，非活動加購機制帶動</td><td>新增「預防針 85 折加購」品項</td><td class="lft">Q2 疫苗<b>不列為活動加購成效</b>；Q3 僅 85 折加購品項（12 件／$8,330）計為活動帶動</td></tr>
+<tr><td class="lft">血壓</td><td>含於 B 方案內、計價 0 元，不進入加購統計</td><td>移出方案，改為 85 折付費加購（本季 5 件）</td><td class="lft">屬<b style="color:var(--teal)">方案優化</b>：血壓由「全案內含」改為「依需求加購」，醫師操作不增負擔，真正有需要者才執行，並使該項目首次成為可衡量之加購成效</td></tr>
+<tr><td class="lft">商品營收</td><td>無 POS 對應資料</td><td>POS 已歸戶 $12,048</td><td class="lft">統一以 NX 就診總額為比較基礎，<b>POS 商品營收全數排除</b></td></tr>
+<tr><td class="lft">目標與達成</td><td>分院組目標 165 件（全期 107 天）</td><td>分院組目標 238 件（全期 93 天）</td><td class="lft">不比較最終達成率；改以各院自身目標之「26 天達成進度」與<b>進度指數</b>（達成進度 ÷ 期間比例）評估節奏</td></tr>
+<tr><td class="lft">總院組</td><td>設有目標（共 143 件）</td><td>不設目標，改個人業績制</td><td class="lft">三總院<b>不納入分院排名與合計</b>，單獨列示</td></tr>
+<tr class="off"><td class="lft">嘉義西區分院</td><td>26 天 11 件、進度指數 3.48</td><td>26 天 0 件（觀測窗內<b>全期正常營運</b>，該院於 08/28 起停止營業）</td><td class="lft">觀測窗 07/15–08/09 全數落在營運期間內，故 0 件<b>非停業因素所致</b>，本報告如實呈現；季末結算時再依停業日調整分院合計分母</td></tr>
+</table></div></div>
+<div class="note"><b>進度指數說明：</b>Q2 活動全期 107 天，26 天占 24.3%；Q3 全期 93 天，26 天占 28.0%。進度指數 ＝ 該院 26 天達成進度 ÷ 期間比例。指數 1.00 代表按期程等速推進，大於 1 代表提前超前。此設計使兩季在期間長度與目標水準皆不同時仍可比較推進節奏。</div>
+<div class="note"><b>甲乙雙層定義：</b>乙 ＝ 檢查類加購（影像、超音波、進階血檢與生化、快篩、尿糞、心腎指標、血壓等），為活動 85 折之核心標的；甲 ＝ 就診總額 − 方案本體 − 掛號費，即病歷整體含金量，內含乙、疫苗、手術結紮、藥品耗材與折讓。獎金屬營業費用，不在毛利內扣抵，故本報告僅呈現營收與加購結構，不計算毛利。</div>
+</section><section id="s2"><h2>二、整體對比<span class="en">Overall Comparison</span></h2>
+<p class="lead">分院組為活動 KPI 主體；括號內為含三總院之全體數字。</p>
+<div class="kpis">
+<div class="kpi hl"><div class="lab">分院計入件數</div><div class="big">77 → 91</div><div class="sm"><span class="d up">1.18x</span>　<span class="d up">+14</span> 件｜全體 86 → 100</div></div>
+<div class="kpi hlr"><div class="lab">分院達成進度</div><div class="big">46.7% → 38.2%</div><div class="sm">目標 165 → 238 件（＋44%）</div></div>
+<div class="kpi hlr"><div class="lab">分院進度指數</div><div class="big">1.92 → 1.37</div><div class="sm">不含 嘉義西區分院 1.79 → 1.47｜1.00 = 等速</div></div>
+<div class="kpi hlt"><div class="lab">計入營收（醫療）</div><div class="big">$392,714 → $455,799</div><div class="sm"><span class="d up">1.16x</span>｜全體 $438,784 → $504,694</div></div>
+<div class="kpi"><div class="lab">客單價</div><div class="big">$5,100 → $5,009</div><div class="sm">全體 $5,102 → $5,047｜持平</div></div>
+<div class="kpi hlt"><div class="lab">檢查加購（乙）金額</div><div class="big">$74,149 → $90,829</div><div class="sm"><span class="d up">1.22x</span>｜高於件數成長 <span class="d up">1.16x</span></div></div>
+<div class="kpi hlt"><div class="lab">乙滲透率</div><div class="big">59.3% → 60.0%</div><div class="sm"><span class="d up">+0.7 pt</span>（全體）｜每件乙 $862 → $908</div></div>
+<div class="kpi hlt"><div class="lab">乙占加購甲比重</div><div class="big">37.2% → 40.9%</div><div class="sm"><span class="d up">+3.7 pt</span>｜甲總額 $199,124 → $222,044</div></div>
+</div>
+<div class="note ok"><b>核心訊號一：量與質同步提升，「1＋N」的 N 確實被放大。</b>分院件數成長 18.2%（77 → 91 件），而檢查類加購金額成長 22%（$74,149 → $90,829），<b>加購成長率高於件數成長率</b>；每件乙金額自 $862 升至 $908，乙占加購甲之比重自 37.2% 升至 40.9%。滲透率亦自 59.3% 微升至 60.0%。本季不僅開出更多案件，每件案件所帶動的活動核心加購亦同步增厚，「1＋N」設計運作正常。其中血壓自 B 方案內含改為 85 折加購（本季 5 件），係方案結構優化——由全案內含改為依醫師評估加購，既不增加開單負擔，又使該項目首次成為可衡量的加購成效。</div>
+<div class="note warn"><b>核心訊號二：達成進度落後，季末達標風險高。</b>件數雖成長，但分院目標同時由 165 件上調至 238 件（＋44%），成長幅度追不上目標調幅，致 26 天達成進度由 46.7% 降至 38.2%；不含 嘉義西區分院 亦為 43.4% → 41.2%。進度指數由 1.79 降至 1.47，代表相對於期程的推進節奏明顯轉弱。11 分院中僅 7 院之進度指數達到或超過等速基準 1.00，其餘 4 院依現行節奏推估季末將無法達標。</div>
+<div class="card"><h3 style="margin-top:2px">營收組成對照（全體，含三總院）</h3><div class="scroll"><table class="tbl">
+<tr><th>組成</th><th>Q2 金額</th><th>占營收</th><th>Q3 金額</th><th>占營收</th><th>倍數</th><th>性質</th></tr><tr><td class="lft">方案</td><td class="num">$232,700</td><td>53.0%</td>
+<td class="num">$271,700</td><td>53.8%</td><td><span class="d up">1.17x</span></td><td class="lft" style="font-size:12.5px">方案本體（1）</td></tr><tr><td class="lft">掛號</td><td class="num">$6,960</td><td>1.6%</td>
+<td class="num">$10,950</td><td>2.2%</td><td><span class="d up">1.57x</span></td><td class="lft" style="font-size:12.5px">掛號／診察</td></tr><tr><td class="lft">檢查(乙)</td><td class="num">$74,149</td><td>16.9%</td>
+<td class="num">$90,829</td><td>18.0%</td><td><span class="d up">1.22x</span></td><td class="lft" style="font-size:12.5px"><b>活動核心加購（N）</b></td></tr><tr><td class="lft">疫苗</td><td class="num">$13,000</td><td>3.0%</td>
+<td class="num">$18,055</td><td>3.6%</td><td><span class="d up">1.39x</span></td><td class="lft" style="font-size:12.5px">搭配施打</td></tr><tr><td class="lft">手術/結紮</td><td class="num">$50,630</td><td>11.5%</td>
+<td class="num">$59,000</td><td>11.7%</td><td><span class="d up">1.17x</span></td><td class="lft" style="font-size:12.5px">搭配處置（含洗牙模組）</td></tr><tr><td class="lft">藥品/其他</td><td class="num">$64,545</td><td>14.7%</td>
+<td class="num">$55,760</td><td>11.0%</td><td><span class="d dn">0.86x</span></td><td class="lft" style="font-size:12.5px">案件自然衍生</td></tr><tr><td class="lft">折讓</td><td class="num">-$3,200</td><td>-0.7%</td>
+<td class="num">-$1,600</td><td>-0.3%</td><td>—</td><td class="lft" style="font-size:12.5px">補助與折抵</td></tr><tr class="tot"><td class="lft">就診總額</td><td class="num">$438,784</td><td>100%</td>
+<td class="num">$504,694</td><td>100%</td><td><span class="d up">1.15x</span></td><td class="lft">明細合計逐案對帳零誤差</td></tr>
+</table></div></div></section><section id="s3"><h2>三、各院表現總表<span class="en">Branch Scorecard</span></h2>
+<p class="lead">各院以「自身當季目標」計算 26 天達成進度；進度指數已校正兩季活動期間長度差異，可直接跨季比較推進節奏。依 Q3 件數排序，總院組列於末段。</p>
+<div class="card"><div class="scroll"><table class="tbl">
+<tr><th>院別</th><th>Q2 件</th><th>Q3 件</th><th>倍數</th><th>Q2 目標</th><th>Q3 目標</th>
+<th>Q2 進度</th><th>Q3 進度</th><th>Q2 指數</th><th>Q3 指數</th>
+<th>Q2 客單</th><th>Q3 客單</th><th>Q2 乙滲透</th><th>Q3 乙滲透</th><th>Q2 每件乙</th><th>Q3 每件乙</th></tr><tr><td class="lft">苗栗縣府分院</td>
+<td><b>0</b></td><td><b>20</b></td><td><span class="d nw">新增</span></td>
+<td>20</td><td>35</td>
+<td>0%<div class="barwrap"><div class="bar" style="width:0.0%;background:var(--gold-l)"></div></div></td>
+<td>57%<div class="barwrap"><div class="bar" style="width:47.6%;background:var(--gold)"></div></div></td>
+<td><b style="color:var(--red)">0.00</b></td><td><b style="color:var(--teal)">2.04</b></td>
+<td class="num">—</td><td class="num">$4,463</td>
+<td>—</td><td>60%</td>
+<td class="num">—</td><td class="num">$877</td></tr><tr><td class="lft">北屯分院</td>
+<td><b>3</b></td><td><b>15</b></td><td><span class="d up">5.00x</span></td>
+<td>11</td><td>20</td>
+<td>27%<div class="barwrap"><div class="bar" style="width:22.7%;background:var(--gold-l)"></div></div></td>
+<td>75%<div class="barwrap"><div class="bar" style="width:62.5%;background:var(--gold)"></div></div></td>
+<td><b style="color:var(--teal)">1.12</b></td><td><b style="color:var(--teal)">2.68</b></td>
+<td class="num">$4,912</td><td class="num">$4,952</td>
+<td>67%</td><td>20%</td>
+<td class="num">$595</td><td class="num">$170</td></tr><tr><td class="lft">中華分院</td>
+<td><b>19</b></td><td><b>13</b></td><td><span class="d dn">0.68x</span></td>
+<td>17</td><td>27</td>
+<td>112%<div class="barwrap"><div class="bar" style="width:93.1%;background:var(--gold-l)"></div></div></td>
+<td>48%<div class="barwrap"><div class="bar" style="width:40.1%;background:var(--gold)"></div></div></td>
+<td><b style="color:var(--teal)">4.60</b></td><td><b style="color:var(--teal)">1.72</b></td>
+<td class="num">$4,109</td><td class="num">$4,075</td>
+<td>37%</td><td>46%</td>
+<td class="num">$255</td><td class="num">$213</td></tr><tr><td class="lft">仁德分院</td>
+<td><b>8</b></td><td><b>12</b></td><td><span class="d up">1.50x</span></td>
+<td>14</td><td>23</td>
+<td>57%<div class="barwrap"><div class="bar" style="width:47.6%;background:var(--gold-l)"></div></div></td>
+<td>52%<div class="barwrap"><div class="bar" style="width:43.5%;background:var(--gold)"></div></div></td>
+<td><b style="color:var(--teal)">2.35</b></td><td><b style="color:var(--teal)">1.87</b></td>
+<td class="num">$4,024</td><td class="num">$3,587</td>
+<td>25%</td><td>75%</td>
+<td class="num">$199</td><td class="num">$737</td></tr><tr><td class="lft">高雄分院</td>
+<td><b>8</b></td><td><b>11</b></td><td><span class="d up">1.38x</span></td>
+<td>23</td><td>23</td>
+<td>35%<div class="barwrap"><div class="bar" style="width:29.0%;background:var(--gold-l)"></div></div></td>
+<td>48%<div class="barwrap"><div class="bar" style="width:39.9%;background:var(--gold)"></div></div></td>
+<td><b style="color:var(--teal)">1.43</b></td><td><b style="color:var(--teal)">1.71</b></td>
+<td class="num">$3,878</td><td class="num">$5,489</td>
+<td>88%</td><td>73%</td>
+<td class="num">$733</td><td class="num">$865</td></tr><tr><td class="lft">九如分院</td>
+<td><b>11</b></td><td><b>7</b></td><td><span class="d dn">0.64x</span></td>
+<td>20</td><td>22</td>
+<td>55%<div class="barwrap"><div class="bar" style="width:45.8%;background:var(--gold-l)"></div></div></td>
+<td>32%<div class="barwrap"><div class="bar" style="width:26.5%;background:var(--gold)"></div></div></td>
+<td><b style="color:var(--teal)">2.26</b></td><td><b style="color:var(--teal)">1.14</b></td>
+<td class="num">$8,417</td><td class="num">$8,099</td>
+<td>91%</td><td>100%</td>
+<td class="num">$2,646</td><td class="num">$1,882</td></tr><tr><td class="lft">曼哈頓分院</td>
+<td><b>0</b></td><td><b>5</b></td><td><span class="d nw">新增</span></td>
+<td>15</td><td>25</td>
+<td>0%<div class="barwrap"><div class="bar" style="width:0.0%;background:var(--gold-l)"></div></div></td>
+<td>20%<div class="barwrap"><div class="bar" style="width:16.7%;background:var(--gold)"></div></div></td>
+<td><b style="color:var(--red)">0.00</b></td><td><b style="color:var(--red)">0.72</b></td>
+<td class="num">—</td><td class="num">$8,371</td>
+<td>—</td><td>80%</td>
+<td class="num">—</td><td class="num">$3,839</td></tr><tr><td class="lft">彰化中山分院</td>
+<td><b>8</b></td><td><b>3</b></td><td><span class="d dn">0.38x</span></td>
+<td>10</td><td>10</td>
+<td>80%<div class="barwrap"><div class="bar" style="width:66.7%;background:var(--gold-l)"></div></div></td>
+<td>30%<div class="barwrap"><div class="bar" style="width:25.0%;background:var(--gold)"></div></div></td>
+<td><b style="color:var(--teal)">3.29</b></td><td><b style="color:var(--teal)">1.07</b></td>
+<td class="num">$5,361</td><td class="num">$4,433</td>
+<td>88%</td><td>100%</td>
+<td class="num">$1,052</td><td class="num">$850</td></tr><tr><td class="lft">金華分院</td>
+<td><b>9</b></td><td><b>3</b></td><td><span class="d dn">0.33x</span></td>
+<td>12</td><td>22</td>
+<td>75%<div class="barwrap"><div class="bar" style="width:62.5%;background:var(--gold-l)"></div></div></td>
+<td>14%<div class="barwrap"><div class="bar" style="width:11.4%;background:var(--gold)"></div></div></td>
+<td><b style="color:var(--teal)">3.09</b></td><td><b style="color:var(--red)">0.49</b></td>
+<td class="num">$4,532</td><td class="num">$4,998</td>
+<td>78%</td><td>33%</td>
+<td class="num">$1,020</td><td class="num">$482</td></tr><tr><td class="lft">大灣分院</td>
+<td><b>0</b></td><td><b>2</b></td><td><span class="d nw">新增</span></td>
+<td>10</td><td>14</td>
+<td>0%<div class="barwrap"><div class="bar" style="width:0.0%;background:var(--gold-l)"></div></div></td>
+<td>14%<div class="barwrap"><div class="bar" style="width:11.9%;background:var(--gold)"></div></div></td>
+<td><b style="color:var(--red)">0.00</b></td><td><b style="color:var(--red)">0.51</b></td>
+<td class="num">—</td><td class="num">$4,510</td>
+<td>—</td><td>100%</td>
+<td class="num">—</td><td class="num">$1,615</td></tr><tr class="off"><td class="lft">嘉義西區分院<span class="g">08/28 起停業</span></td>
+<td><b>11</b></td><td><b>0</b></td><td><span class="d dn">0.00x</span></td>
+<td>13</td><td>17</td>
+<td>85%<div class="barwrap"><div class="bar" style="width:70.5%;background:var(--gold-l)"></div></div></td>
+<td>0%<div class="barwrap"><div class="bar" style="width:0.0%;background:var(--gold)"></div></div></td>
+<td><b style="color:var(--teal)">3.48</b></td><td><b style="color:var(--red)">0.00</b></td>
+<td class="num">$5,495</td><td class="num">—</td>
+<td>36%</td><td>—</td>
+<td class="num">$272</td><td class="num">—</td></tr><tr class="hq"><td class="lft">台北總院<span class="g">總院組</span></td>
+<td><b>1</b></td><td><b>8</b></td><td><span class="d up">8.00x</span></td>
+<td>48</td><td>—</td>
+<td>2%<div class="barwrap"><div class="bar" style="width:1.7%;background:var(--gold-l)"></div></div></td>
+<td>—<div class="barwrap"><div class="bar" style="width:0.0%;background:var(--gold)"></div></div></td>
+<td><b style="color:var(--red)">0.09</b></td><td>—</td>
+<td class="num">$5,950</td><td class="num">$5,016</td>
+<td>100%</td><td>50%</td>
+<td class="num">$850</td><td class="num">$625</td></tr><tr class="hq"><td class="lft">台中總院<span class="g">總院組</span></td>
+<td><b>4</b></td><td><b>1</b></td><td><span class="d dn">0.25x</span></td>
+<td>44</td><td>—</td>
+<td>9%<div class="barwrap"><div class="bar" style="width:7.6%;background:var(--gold-l)"></div></div></td>
+<td>—<div class="barwrap"><div class="bar" style="width:0.0%;background:var(--gold)"></div></div></td>
+<td><b style="color:var(--red)">0.37</b></td><td>—</td>
+<td class="num">$4,385</td><td class="num">$8,765</td>
+<td>25%</td><td>100%</td>
+<td class="num">$510</td><td class="num">$5,015</td></tr><tr class="hq"><td class="lft">台南總院<span class="g">總院組</span></td>
+<td><b>4</b></td><td><b>0</b></td><td><span class="d dn">0.00x</span></td>
+<td>51</td><td>—</td>
+<td>8%<div class="barwrap"><div class="bar" style="width:6.5%;background:var(--gold-l)"></div></div></td>
+<td>—<div class="barwrap"><div class="bar" style="width:0.0%;background:var(--gold)"></div></div></td>
+<td><b style="color:var(--red)">0.32</b></td><td>—</td>
+<td class="num">$5,645</td><td class="num">—</td>
+<td>75%</td><td>—</td>
+<td class="num">$1,870</td><td class="num">—</td></tr><tr class="sub"><td class="lft">分院組合計（11 院）</td><td><b>77</b></td><td><b>91</b></td>
+<td><span class="d up">1.18x</span></td><td>165</td><td>238</td><td>46.7%</td><td>38.2%</td>
+<td>1.92</td><td>1.37</td><td class="num">$5,100</td><td class="num">$5,009</td>
+<td>59.7%</td><td>60.4%</td><td class="num">$828</td><td class="num">$888</td></tr>
+<tr class="sub"><td class="lft">分院組（不含 嘉義西區分院，供季末結算參考）</td><td><b>66</b></td><td><b>91</b></td>
+<td><span class="d up">1.38x</span></td><td>152</td><td>221</td><td>43.4%</td><td>41.2%</td>
+<td>1.79</td><td>1.47</td><td class="num">—</td><td class="num">—</td><td>—</td><td>—</td><td class="num">—</td><td class="num">—</td></tr>
+<tr class="tot"><td class="lft">總院組（3 院）</td><td><b>9</b></td><td><b>9</b></td>
+<td><span class="d fl">1.00x</span></td><td>143</td><td>個人業績</td><td>6.3%</td><td>—</td>
+<td>0.26</td><td>—</td><td class="num">$5,119</td><td class="num">$5,433</td>
+<td>55.6%</td><td>55.6%</td><td class="num">$1,152</td><td class="num">$1,113</td></tr>
+</table></div>
+<p style="font-size:12.5px;color:var(--ink-faint);margin:10px 0 0">各院達成進度均以該院自身目標為分母，嘉義西區分院 之目標不影響其他院所之達成率或競賽排名；僅分院合計列受分母影響，故並列含／不含該院兩種基準。</p></div><div class="grid2">
+<div class="card"><h3 style="margin-top:2px;color:var(--teal)">件數成長院所</h3>
+<table class="tbl"><tr><th>院別</th><th>Q2</th><th>Q3</th><th>增減</th><th>Q3 指數</th><th>Q3 乙滲透</th></tr><tr><td class="lft">苗栗縣府分院</td><td>0</td><td><b>20</b></td>
+<td><span class="d up">+20</span></td><td>2.04</td><td>60%</td></tr><tr><td class="lft">北屯分院</td><td>3</td><td><b>15</b></td>
+<td><span class="d up">+12</span></td><td>2.68</td><td>20%</td></tr><tr><td class="lft">曼哈頓分院</td><td>0</td><td><b>5</b></td>
+<td><span class="d up">+5</span></td><td>0.72</td><td>80%</td></tr><tr><td class="lft">仁德分院</td><td>8</td><td><b>12</b></td>
+<td><span class="d up">+4</span></td><td>1.87</td><td>75%</td></tr><tr><td class="lft">高雄分院</td><td>8</td><td><b>11</b></td>
+<td><span class="d up">+3</span></td><td>1.71</td><td>73%</td></tr><tr><td class="lft">大灣分院</td><td>0</td><td><b>2</b></td>
+<td><span class="d up">+2</span></td><td>0.51</td><td>100%</td></tr><tr class="tot"><td class="lft">小計</td><td>19</td><td>65</td>
+<td><span class="d up">+46</span></td><td>—</td><td>—</td></tr></table></div>
+<div class="card"><h3 style="margin-top:2px;color:var(--red)">件數衰退院所</h3>
+<table class="tbl"><tr><th>院別</th><th>Q2</th><th>Q3</th><th>增減</th><th>Q3 指數</th><th>Q3 乙滲透</th></tr><tr><td class="lft">嘉義西區分院（08/28 起停業）</td><td>11</td><td><b>0</b></td>
+<td><span class="d dn">-11</span></td><td>0.00</td><td>—</td></tr><tr><td class="lft">中華分院</td><td>19</td><td><b>13</b></td>
+<td><span class="d dn">-6</span></td><td>1.72</td><td>46%</td></tr><tr><td class="lft">金華分院</td><td>9</td><td><b>3</b></td>
+<td><span class="d dn">-6</span></td><td>0.49</td><td>33%</td></tr><tr><td class="lft">彰化中山分院</td><td>8</td><td><b>3</b></td>
+<td><span class="d dn">-5</span></td><td>1.07</td><td>100%</td></tr><tr><td class="lft">九如分院</td><td>11</td><td><b>7</b></td>
+<td><span class="d dn">-4</span></td><td>1.14</td><td>100%</td></tr><tr class="tot"><td class="lft">小計</td><td>58</td><td>26</td>
+<td><span class="d dn">-32</span></td><td>—</td><td>—</td></tr></table></div></div>
+<div class="note"><b>分布重整而非全面成長：</b>分院淨增 14 件，係 6 院合計增加 46 件、抵銷 5 院合計減少 32 件而成。Q2 前段班（中華、嘉義西區分院、金華、彰化中山、九如）本季全數回落，Q2 開跑首 26 天未推動而掛零之三院（苗栗縣府、曼哈頓、大灣）本季全面啟動。三院於 Q2 全期均有件數，非新設院所，本季差異來自前線推動力度。建議對「回落院」檢視動線是否鬆脫，對「本季啟動院」鞏固成果。</div>
+</section><section id="s4"><h2>四、逐院分析<span class="en">Branch-by-Branch</span></h2>
+<p class="lead">每院並列兩季 26 天之件數、方案結構、客單、雙層加購、案件屬性與醫師投入，並附觀察。</p><div class="bc"><div class="hd"><div class="nm">苗栗縣府分院<span class="g">分院組</span></div><div><span class="pill nw">本季啟動</span></div></div><div class="bd"><div class="mini"><div class="m"><div class="l">計入件數</div><div class="v">0 → 20</div><div class="s">A 0／B 0｜A 17／B 3</div></div><div class="m"><div class="l">達成進度</div><div class="v">0% → 57%</div><div class="s">目標 20｜目標 35</div></div><div class="m"><div class="l">進度指數</div><div class="v">0.00 → 2.04</div><div class="s">基準 1.00 = 等速</div></div><div class="m"><div class="l">客單價</div><div class="v">— → $4,463</div><div class="s"></div></div><div class="m"><div class="l">計入營收</div><div class="v">$0 → $89,265</div><div class="s"></div></div><div class="m"><div class="l">方案本體</div><div class="v">$0 → $44,400</div><div class="s"></div></div><div class="m"><div class="l">乙滲透率</div><div class="v">— → 60%</div><div class="s">｜$877</div></div><div class="m"><div class="l">乙金額</div><div class="v">$0 → $17,535</div><div class="s">｜占甲 41%</div></div><div class="m"><div class="l">加購甲</div><div class="v">$0 → $42,965</div><div class="s"></div></div><div class="m"><div class="l">犬 / 貓</div><div class="v">0／0 → 4／16</div><div class="s"></div></div><div class="m"><div class="l">新客件數</div><div class="v">0 → 2</div><div class="s">占 —｜占 10%</div></div><div class="m"><div class="l">結紮 / 疫苗件</div><div class="v">0／0 → 4／3</div><div class="s"></div></div><div class="m"><div class="l">開單醫師數</div><div class="v">0 → 4</div><div class="s"></div></div></div><div class="obs">該院 Q2 開跑首 26 天未推動、掛零；本季開出 20 件、進度指數 2.04，乙滲透 60%、每件乙 $877，屬前線推動明顯到位之轉變。 本季進度指數 2.04 高於等速基準，節奏良好。</div></div></div><div class="bc"><div class="hd"><div class="nm">北屯分院<span class="g">分院組</span></div><div><span class="pill up">+12 件</span></div></div><div class="bd"><div class="mini"><div class="m"><div class="l">計入件數</div><div class="v">3 → 15</div><div class="s">A 0／B 3｜A 7／B 8</div></div><div class="m"><div class="l">達成進度</div><div class="v">27% → 75%</div><div class="s">目標 11｜目標 20</div></div><div class="m"><div class="l">進度指數</div><div class="v">1.12 → 2.68</div><div class="s">基準 1.00 = 等速</div></div><div class="m"><div class="l">客單價</div><div class="v">$4,912 → $4,952</div><div class="s"></div></div><div class="m"><div class="l">計入營收</div><div class="v">$14,735 → $74,285</div><div class="s"></div></div><div class="m"><div class="l">方案本體</div><div class="v">$11,250 → $43,650</div><div class="s"></div></div><div class="m"><div class="l">乙滲透率</div><div class="v">67% → 20%</div><div class="s">每件乙 $595｜$170</div></div><div class="m"><div class="l">乙金額</div><div class="v">$1,785 → $2,550</div><div class="s">占甲 58%｜占甲 9%</div></div><div class="m"><div class="l">加購甲</div><div class="v">$3,085 → $29,035</div><div class="s"></div></div><div class="m"><div class="l">犬 / 貓</div><div class="v">0／3 → 9／6</div><div class="s"></div></div><div class="m"><div class="l">新客件數</div><div class="v">0 → 1</div><div class="s">占 0%｜占 7%</div></div><div class="m"><div class="l">結紮 / 疫苗件</div><div class="v">0／1 → 5／4</div><div class="s"></div></div><div class="m"><div class="l">開單醫師數</div><div class="v">1 → 1</div><div class="s"></div></div></div><div class="obs">件數自 3 增至 15 件（+12）。 乙滲透率自 67% 降至 20%（-47 pt），每件乙 $595 → $170，檢查加購動線需優先檢視。 B 方案占比自 100% 降至 53%，升級動能轉弱。 本季進度指數 2.68 高於等速基準，節奏良好。 本季乙滲透僅 20%、每件乙 $170，於同期各院中偏低，建議列為檢查加購輔導對象。</div></div></div><div class="bc"><div class="hd"><div class="nm">中華分院<span class="g">分院組</span></div><div><span class="pill dn">-6 件</span></div></div><div class="bd"><div class="mini"><div class="m"><div class="l">計入件數</div><div class="v">19 → 13</div><div class="s">A 14／B 5｜A 11／B 2</div></div><div class="m"><div class="l">達成進度</div><div class="v">112% → 48%</div><div class="s">目標 17｜目標 27</div></div><div class="m"><div class="l">進度指數</div><div class="v">4.60 → 1.72</div><div class="s">基準 1.00 = 等速</div></div><div class="m"><div class="l">客單價</div><div class="v">$4,109 → $4,075</div><div class="s"></div></div><div class="m"><div class="l">計入營收</div><div class="v">$78,070 → $52,970</div><div class="s"></div></div><div class="m"><div class="l">方案本體</div><div class="v">$46,050 → $28,950</div><div class="s"></div></div><div class="m"><div class="l">乙滲透率</div><div class="v">37% → 46%</div><div class="s">每件乙 $255｜$213</div></div><div class="m"><div class="l">乙金額</div><div class="v">$4,850 → $2,770</div><div class="s">占甲 16%｜占甲 12%</div></div><div class="m"><div class="l">加購甲</div><div class="v">$30,190 → $22,570</div><div class="s"></div></div><div class="m"><div class="l">犬 / 貓</div><div class="v">8／11 → 5／8</div><div class="s"></div></div><div class="m"><div class="l">新客件數</div><div class="v">1 → 2</div><div class="s">占 5%｜占 15%</div></div><div class="m"><div class="l">結紮 / 疫苗件</div><div class="v">6／3 → 5／3</div><div class="s"></div></div><div class="m"><div class="l">開單醫師數</div><div class="v">1 → 1</div><div class="s"></div></div></div><div class="obs">件數自 19 降至 13 件（-6）。 本季進度指數 1.72 高於等速基準，節奏良好。</div></div></div><div class="bc"><div class="hd"><div class="nm">仁德分院<span class="g">分院組</span></div><div><span class="pill up">+4 件</span></div></div><div class="bd"><div class="mini"><div class="m"><div class="l">計入件數</div><div class="v">8 → 12</div><div class="s">A 4／B 4｜A 11／B 1</div></div><div class="m"><div class="l">達成進度</div><div class="v">57% → 52%</div><div class="s">目標 14｜目標 23</div></div><div class="m"><div class="l">進度指數</div><div class="v">2.35 → 1.87</div><div class="s">基準 1.00 = 等速</div></div><div class="m"><div class="l">客單價</div><div class="v">$4,024 → $3,587</div><div class="s"></div></div><div class="m"><div class="l">計入營收</div><div class="v">$32,190 → $43,039</div><div class="s"></div></div><div class="m"><div class="l">方案本體</div><div class="v">$22,800 → $25,200</div><div class="s"></div></div><div class="m"><div class="l">乙滲透率</div><div class="v">25% → 75%</div><div class="s">每件乙 $199｜$737</div></div><div class="m"><div class="l">乙金額</div><div class="v">$1,590 → $8,844</div><div class="s">占甲 17%｜占甲 53%</div></div><div class="m"><div class="l">加購甲</div><div class="v">$9,090 → $16,639</div><div class="s"></div></div><div class="m"><div class="l">犬 / 貓</div><div class="v">3／5 → 6／6</div><div class="s"></div></div><div class="m"><div class="l">新客件數</div><div class="v">0 → 1</div><div class="s">占 0%｜占 8%</div></div><div class="m"><div class="l">結紮 / 疫苗件</div><div class="v">0／2 → 1／1</div><div class="s"></div></div><div class="m"><div class="l">開單醫師數</div><div class="v">2 → 3</div><div class="s"></div></div></div><div class="obs">件數自 8 增至 12 件（+4）。 乙滲透率自 25% 升至 75%（+50 pt），醫療加購建議落地良好。 B 方案占比自 50% 降至 8%，升級動能轉弱。 本季進度指數 1.87 高於等速基準，節奏良好。</div></div></div><div class="bc"><div class="hd"><div class="nm">高雄分院<span class="g">分院組</span></div><div><span class="pill up">+3 件</span></div></div><div class="bd"><div class="mini"><div class="m"><div class="l">計入件數</div><div class="v">8 → 11</div><div class="s">A 6／B 2｜A 5／B 6</div></div><div class="m"><div class="l">達成進度</div><div class="v">35% → 48%</div><div class="s">目標 23｜目標 23</div></div><div class="m"><div class="l">進度指數</div><div class="v">1.43 → 1.71</div><div class="s">基準 1.00 = 等速</div></div><div class="m"><div class="l">客單價</div><div class="v">$3,878 → $5,489</div><div class="s"></div></div><div class="m"><div class="l">計入營收</div><div class="v">$31,020 → $60,375</div><div class="s"></div></div><div class="m"><div class="l">方案本體</div><div class="v">$19,200 → $32,250</div><div class="s"></div></div><div class="m"><div class="l">乙滲透率</div><div class="v">88% → 73%</div><div class="s">每件乙 $733｜$865</div></div><div class="m"><div class="l">乙金額</div><div class="v">$5,865 → $9,520</div><div class="s">占甲 53%｜占甲 35%</div></div><div class="m"><div class="l">加購甲</div><div class="v">$11,070 → $27,025</div><div class="s"></div></div><div class="m"><div class="l">犬 / 貓</div><div class="v">5／3 → 5／6</div><div class="s"></div></div><div class="m"><div class="l">新客件數</div><div class="v">1 → 1</div><div class="s">占 12%｜占 9%</div></div><div class="m"><div class="l">結紮 / 疫苗件</div><div class="v">0／0 → 3／2</div><div class="s"></div></div><div class="m"><div class="l">開單醫師數</div><div class="v">1 → 1</div><div class="s"></div></div></div><div class="obs">件數自 8 增至 11 件（+3）。 客單價提升 $1,611。 B 方案占比自 25% 升至 55%，分眾推薦到位。 本季進度指數 1.71 高於等速基準，節奏良好。</div></div></div><div class="bc"><div class="hd"><div class="nm">九如分院<span class="g">分院組</span></div><div><span class="pill dn">-4 件</span></div></div><div class="bd"><div class="mini"><div class="m"><div class="l">計入件數</div><div class="v">11 → 7</div><div class="s">A 3／B 8｜A 0／B 7</div></div><div class="m"><div class="l">達成進度</div><div class="v">55% → 32%</div><div class="s">目標 20｜目標 22</div></div><div class="m"><div class="l">進度指數</div><div class="v">2.26 → 1.14</div><div class="s">基準 1.00 = 等速</div></div><div class="m"><div class="l">客單價</div><div class="v">$8,417 → $8,099</div><div class="s"></div></div><div class="m"><div class="l">計入營收</div><div class="v">$92,584 → $56,695</div><div class="s"></div></div><div class="m"><div class="l">方案本體</div><div class="v">$35,850 → $26,250</div><div class="s"></div></div><div class="m"><div class="l">乙滲透率</div><div class="v">91% → 100%</div><div class="s">每件乙 $2,646｜$1,882</div></div><div class="m"><div class="l">乙金額</div><div class="v">$29,104 → $13,175</div><div class="s">占甲 52%｜占甲 44%</div></div><div class="m"><div class="l">加購甲</div><div class="v">$56,134 → $29,945</div><div class="s"></div></div><div class="m"><div class="l">犬 / 貓</div><div class="v">5／6 → 3／4</div><div class="s"></div></div><div class="m"><div class="l">新客件數</div><div class="v">0 → 0</div><div class="s">占 0%｜占 0%</div></div><div class="m"><div class="l">結紮 / 疫苗件</div><div class="v">0／6 → 1／4</div><div class="s"></div></div><div class="m"><div class="l">開單醫師數</div><div class="v">1 → 1</div><div class="s"></div></div></div><div class="obs">件數自 11 降至 7 件（-4）。 B 方案占比自 73% 升至 100%，分眾推薦到位。 本季進度指數 1.14 高於等速基準，節奏良好。</div></div></div><div class="bc"><div class="hd"><div class="nm">曼哈頓分院<span class="g">分院組</span></div><div><span class="pill nw">本季啟動</span></div></div><div class="bd"><div class="mini"><div class="m"><div class="l">計入件數</div><div class="v">0 → 5</div><div class="s">A 0／B 0｜A 0／B 5</div></div><div class="m"><div class="l">達成進度</div><div class="v">0% → 20%</div><div class="s">目標 15｜目標 25</div></div><div class="m"><div class="l">進度指數</div><div class="v">0.00 → 0.72</div><div class="s">基準 1.00 = 等速</div></div><div class="m"><div class="l">客單價</div><div class="v">— → $8,371</div><div class="s"></div></div><div class="m"><div class="l">計入營收</div><div class="v">$0 → $41,855</div><div class="s"></div></div><div class="m"><div class="l">方案本體</div><div class="v">$0 → $19,750</div><div class="s"></div></div><div class="m"><div class="l">乙滲透率</div><div class="v">— → 80%</div><div class="s">｜$3,839</div></div><div class="m"><div class="l">乙金額</div><div class="v">$0 → $19,195</div><div class="s">｜占甲 91%</div></div><div class="m"><div class="l">加購甲</div><div class="v">$0 → $21,205</div><div class="s"></div></div><div class="m"><div class="l">犬 / 貓</div><div class="v">0／0 → 0／5</div><div class="s"></div></div><div class="m"><div class="l">新客件數</div><div class="v">0 → 0</div><div class="s">占 —｜占 0%</div></div><div class="m"><div class="l">結紮 / 疫苗件</div><div class="v">0／0 → 0／0</div><div class="s"></div></div><div class="m"><div class="l">開單醫師數</div><div class="v">0 → 3</div><div class="s"></div></div></div><div class="obs">該院 Q2 開跑首 26 天未推動、掛零；本季開出 5 件、進度指數 0.72，乙滲透 80%、每件乙 $3,839，屬前線推動明顯到位之轉變。 本季進度指數 0.72 低於等速基準，依現行節奏推估季末將無法達標。</div></div></div><div class="bc"><div class="hd"><div class="nm">彰化中山分院<span class="g">分院組</span></div><div><span class="pill dn">-5 件</span></div></div><div class="bd"><div class="mini"><div class="m"><div class="l">計入件數</div><div class="v">8 → 3</div><div class="s">A 7／B 1｜A 3／B 0</div></div><div class="m"><div class="l">達成進度</div><div class="v">80% → 30%</div><div class="s">目標 10｜目標 10</div></div><div class="m"><div class="l">進度指數</div><div class="v">3.29 → 1.07</div><div class="s">基準 1.00 = 等速</div></div><div class="m"><div class="l">客單價</div><div class="v">$5,361 → $4,433</div><div class="s"></div></div><div class="m"><div class="l">計入營收</div><div class="v">$42,885 → $13,300</div><div class="s"></div></div><div class="m"><div class="l">方案本體</div><div class="v">$17,400 → $5,850</div><div class="s"></div></div><div class="m"><div class="l">乙滲透率</div><div class="v">88% → 100%</div><div class="s">每件乙 $1,052｜$850</div></div><div class="m"><div class="l">乙金額</div><div class="v">$8,415 → $2,550</div><div class="s">占甲 34%｜占甲 35%</div></div><div class="m"><div class="l">加購甲</div><div class="v">$25,085 → $7,350</div><div class="s"></div></div><div class="m"><div class="l">犬 / 貓</div><div class="v">5／3 → 1／2</div><div class="s"></div></div><div class="m"><div class="l">新客件數</div><div class="v">1 → 0</div><div class="s">占 12%｜占 0%</div></div><div class="m"><div class="l">結紮 / 疫苗件</div><div class="v">5／2 → 2／1</div><div class="s"></div></div><div class="m"><div class="l">開單醫師數</div><div class="v">2 → 1</div><div class="s"></div></div></div><div class="obs">件數自 8 降至 3 件（-5）。 客單價下降 $927，需搭配案件屬性一併判讀。 本季進度指數 1.07 高於等速基準，節奏良好。</div></div></div><div class="bc"><div class="hd"><div class="nm">金華分院<span class="g">分院組</span></div><div><span class="pill dn">-6 件</span></div></div><div class="bd"><div class="mini"><div class="m"><div class="l">計入件數</div><div class="v">9 → 3</div><div class="s">A 5／B 4｜A 1／B 2</div></div><div class="m"><div class="l">達成進度</div><div class="v">75% → 14%</div><div class="s">目標 12｜目標 22</div></div><div class="m"><div class="l">進度指數</div><div class="v">3.09 → 0.49</div><div class="s">基準 1.00 = 等速</div></div><div class="m"><div class="l">客單價</div><div class="v">$4,532 → $4,998</div><div class="s"></div></div><div class="m"><div class="l">計入營收</div><div class="v">$40,790 → $14,995</div><div class="s"></div></div><div class="m"><div class="l">方案本體</div><div class="v">$24,750 → $9,450</div><div class="s"></div></div><div class="m"><div class="l">乙滲透率</div><div class="v">78% → 33%</div><div class="s">每件乙 $1,020｜$482</div></div><div class="m"><div class="l">乙金額</div><div class="v">$9,180 → $1,445</div><div class="s">占甲 61%｜占甲 26%</div></div><div class="m"><div class="l">加購甲</div><div class="v">$15,160 → $5,545</div><div class="s"></div></div><div class="m"><div class="l">犬 / 貓</div><div class="v">5／4 → 2／1</div><div class="s"></div></div><div class="m"><div class="l">新客件數</div><div class="v">0 → 0</div><div class="s">占 0%｜占 0%</div></div><div class="m"><div class="l">結紮 / 疫苗件</div><div class="v">0／0 → 1／0</div><div class="s"></div></div><div class="m"><div class="l">開單醫師數</div><div class="v">2 → 1</div><div class="s"></div></div></div><div class="obs">件數自 9 降至 3 件（-6）。 乙滲透率自 78% 降至 33%（-44 pt），每件乙 $1,020 → $482，檢查加購動線需優先檢視。 B 方案占比自 44% 升至 67%，分眾推薦到位。 本季進度指數 0.49 低於等速基準，依現行節奏推估季末將無法達標。</div></div></div><div class="bc"><div class="hd"><div class="nm">大灣分院<span class="g">分院組</span></div><div><span class="pill nw">本季啟動</span></div></div><div class="bd"><div class="mini"><div class="m"><div class="l">計入件數</div><div class="v">0 → 2</div><div class="s">A 0／B 0｜A 2／B 0</div></div><div class="m"><div class="l">達成進度</div><div class="v">0% → 14%</div><div class="s">目標 10｜目標 14</div></div><div class="m"><div class="l">進度指數</div><div class="v">0.00 → 0.51</div><div class="s">基準 1.00 = 等速</div></div><div class="m"><div class="l">客單價</div><div class="v">— → $4,510</div><div class="s"></div></div><div class="m"><div class="l">計入營收</div><div class="v">$0 → $9,020</div><div class="s"></div></div><div class="m"><div class="l">方案本體</div><div class="v">$0 → $3,900</div><div class="s"></div></div><div class="m"><div class="l">乙滲透率</div><div class="v">— → 100%</div><div class="s">｜$1,615</div></div><div class="m"><div class="l">乙金額</div><div class="v">$0 → $3,230</div><div class="s">｜占甲 66%</div></div><div class="m"><div class="l">加購甲</div><div class="v">$0 → $4,920</div><div class="s"></div></div><div class="m"><div class="l">犬 / 貓</div><div class="v">0／0 → 0／2</div><div class="s"></div></div><div class="m"><div class="l">新客件數</div><div class="v">0 → 0</div><div class="s">占 —｜占 0%</div></div><div class="m"><div class="l">結紮 / 疫苗件</div><div class="v">0／0 → 0／2</div><div class="s"></div></div><div class="m"><div class="l">開單醫師數</div><div class="v">0 → 1</div><div class="s"></div></div></div><div class="obs">該院 Q2 開跑首 26 天未推動、掛零；本季開出 2 件、進度指數 0.51，乙滲透 100%、每件乙 $1,615，屬前線推動明顯到位之轉變。 本季進度指數 0.51 低於等速基準，依現行節奏推估季末將無法達標。</div></div></div><div class="bc"><div class="hd"><div class="nm">嘉義西區分院<span class="g">分院組 · 08/28 起停業</span></div><div><span class="pill dn">本季掛零</span></div></div><div class="bd"><div class="mini"><div class="m"><div class="l">計入件數</div><div class="v">11 → 0</div><div class="s">A 8／B 3｜A 0／B 0</div></div><div class="m"><div class="l">達成進度</div><div class="v">85% → 0%</div><div class="s">目標 13｜目標 17</div></div><div class="m"><div class="l">進度指數</div><div class="v">3.48 → 0.00</div><div class="s">基準 1.00 = 等速</div></div><div class="m"><div class="l">客單價</div><div class="v">$5,495 → —</div><div class="s"></div></div><div class="m"><div class="l">計入營收</div><div class="v">$60,440 → $0</div><div class="s"></div></div><div class="m"><div class="l">方案本體</div><div class="v">$26,850 → $0</div><div class="s"></div></div><div class="m"><div class="l">乙滲透率</div><div class="v">36% → —</div><div class="s">每件乙 $272</div></div><div class="m"><div class="l">乙金額</div><div class="v">$2,990 → $0</div><div class="s">占甲 9%</div></div><div class="m"><div class="l">加購甲</div><div class="v">$33,090 → $0</div><div class="s"></div></div><div class="m"><div class="l">犬 / 貓</div><div class="v">6／5 → 0／0</div><div class="s"></div></div><div class="m"><div class="l">新客件數</div><div class="v">1 → 0</div><div class="s">占 9%｜占 —</div></div><div class="m"><div class="l">結紮 / 疫苗件</div><div class="v">5／2 → 0／0</div><div class="s"></div></div><div class="m"><div class="l">開單醫師數</div><div class="v">2 → 0</div><div class="s"></div></div></div><div class="obs">Q2 開跑首 26 天 11 件、進度指數 3.48，為當季領先院之一；本季同期 0 件。該院於 08/28 起停止營業，但本次觀測窗（07/15–08/09）全數落在正常營運期間，故 0 件並非停業所致，而是活動推動於本季完全未啟動。附帶觀察：該院 Q2 雖件數居前，乙滲透僅 36%、每件乙 $272，屬高量低含金型態。建議確認停業前之人力與客戶轉介安排，並將既有客戶名單移轉至鄰近院所承接。</div></div></div><div class="bc"><div class="hd"><div class="nm">台北總院<span class="g">總院組 · 個人業績制</span></div><div><span class="pill up">+7 件</span></div></div><div class="bd"><div class="mini"><div class="m"><div class="l">計入件數</div><div class="v">1 → 8</div><div class="s">A 0／B 1｜A 2／B 6</div></div><div class="m"><div class="l">客單價</div><div class="v">$5,950 → $5,016</div><div class="s"></div></div><div class="m"><div class="l">計入營收</div><div class="v">$5,950 → $40,130</div><div class="s"></div></div><div class="m"><div class="l">方案本體</div><div class="v">$3,950 → $28,300</div><div class="s"></div></div><div class="m"><div class="l">乙滲透率</div><div class="v">100% → 50%</div><div class="s">每件乙 $850｜$625</div></div><div class="m"><div class="l">乙金額</div><div class="v">$850 → $5,000</div><div class="s">占甲 47%｜占甲 51%</div></div><div class="m"><div class="l">加購甲</div><div class="v">$1,800 → $9,830</div><div class="s"></div></div><div class="m"><div class="l">犬 / 貓</div><div class="v">0／1 → 3／5</div><div class="s"></div></div><div class="m"><div class="l">新客件數</div><div class="v">0 → 2</div><div class="s">占 0%｜占 25%</div></div><div class="m"><div class="l">結紮 / 疫苗件</div><div class="v">0／1 → 0／1</div><div class="s"></div></div><div class="m"><div class="l">開單醫師數</div><div class="v">1 → 4</div><div class="s"></div></div></div><div class="obs">件數自 1 增至 8 件（+7）。 乙滲透率自 100% 降至 50%（-50 pt），每件乙 $850 → $625，檢查加購動線需優先檢視。 客單價下降 $934，需搭配案件屬性一併判讀。 B 方案占比自 100% 降至 75%，升級動能轉弱。</div></div></div><div class="bc"><div class="hd"><div class="nm">台中總院<span class="g">總院組 · 個人業績制</span></div><div><span class="pill dn">-3 件</span></div></div><div class="bd"><div class="mini"><div class="m"><div class="l">計入件數</div><div class="v">4 → 1</div><div class="s">A 1／B 3｜A 0／B 1</div></div><div class="m"><div class="l">客單價</div><div class="v">$4,385 → $8,765</div><div class="s"></div></div><div class="m"><div class="l">計入營收</div><div class="v">$17,540 → $8,765</div><div class="s"></div></div><div class="m"><div class="l">方案本體</div><div class="v">$13,200 → $3,750</div><div class="s"></div></div><div class="m"><div class="l">乙滲透率</div><div class="v">25% → 100%</div><div class="s">每件乙 $510｜$5,015</div></div><div class="m"><div class="l">乙金額</div><div class="v">$2,040 → $5,015</div><div class="s">占甲 56%｜占甲 100%</div></div><div class="m"><div class="l">加購甲</div><div class="v">$3,640 → $5,015</div><div class="s"></div></div><div class="m"><div class="l">犬 / 貓</div><div class="v">3／1 → 0／1</div><div class="s"></div></div><div class="m"><div class="l">新客件數</div><div class="v">3 → 0</div><div class="s">占 75%｜占 0%</div></div><div class="m"><div class="l">結紮 / 疫苗件</div><div class="v">0／0 → 0／0</div><div class="s"></div></div><div class="m"><div class="l">開單醫師數</div><div class="v">1 → 1</div><div class="s"></div></div></div><div class="obs">件數自 4 降至 1 件（-3）。 乙滲透率自 25% 升至 100%（+75 pt），醫療加購建議落地良好。 客單價提升 $4,380。 B 方案占比自 75% 升至 100%，分眾推薦到位。</div></div></div><div class="bc"><div class="hd"><div class="nm">台南總院<span class="g">總院組 · 個人業績制</span></div><div><span class="pill dn">本季掛零</span></div></div><div class="bd"><div class="mini"><div class="m"><div class="l">計入件數</div><div class="v">4 → 0</div><div class="s">A 2／B 2｜A 0／B 0</div></div><div class="m"><div class="l">客單價</div><div class="v">$5,645 → —</div><div class="s"></div></div><div class="m"><div class="l">計入營收</div><div class="v">$22,580 → $0</div><div class="s"></div></div><div class="m"><div class="l">方案本體</div><div class="v">$11,400 → $0</div><div class="s"></div></div><div class="m"><div class="l">乙滲透率</div><div class="v">75% → —</div><div class="s">每件乙 $1,870</div></div><div class="m"><div class="l">乙金額</div><div class="v">$7,480 → $0</div><div class="s">占甲 69%</div></div><div class="m"><div class="l">加購甲</div><div class="v">$10,780 → $0</div><div class="s"></div></div><div class="m"><div class="l">犬 / 貓</div><div class="v">3／1 → 0／0</div><div class="s"></div></div><div class="m"><div class="l">新客件數</div><div class="v">0 → 0</div><div class="s">占 0%｜占 —</div></div><div class="m"><div class="l">結紮 / 疫苗件</div><div class="v">0／0 → 0／0</div><div class="s"></div></div><div class="m"><div class="l">開單醫師數</div><div class="v">3 → 0</div><div class="s"></div></div></div><div class="obs">Q2 有 4 件、本季掛零，需確認前線動線是否中斷。</div></div></div></section><section id="s5"><h2>五、案件結構位移<span class="en">Case-Mix Shift</span></h2>
+<p class="lead">同一觀測窗下的物種、年齡、客源與方案分眾比較。案件屬性位移是解讀加購表現的必要前提。</p>
+<div class="grid2">
+<div class="card"><h3 style="margin-top:2px">物種與客源</h3><table class="tbl">
+<tr><th>項目</th><th>Q2</th><th>占比</th><th>Q3</th><th>占比</th><th>變動</th></tr><tr><td class="lft">犬</td><td>43</td><td>50%</td><td>38</td><td>38%</td><td><span class="d dn">-12.0 pt</span></td></tr><tr><td class="lft">貓</td><td>43</td><td>50%</td><td>62</td><td>62%</td><td><span class="d up">+12.0 pt</span></td></tr><tr><td class="lft">新客</td><td>7</td><td>8%</td><td>9</td><td>9%</td><td><span class="d up">+0.9 pt</span></td></tr><tr><td class="lft">舊客</td><td>79</td><td>92%</td><td>91</td><td>91%</td><td><span class="d dn">-0.9 pt</span></td></tr></table></div>
+<div class="card"><h3 style="margin-top:2px">年齡帶（含各帶乙滲透）</h3><table class="tbl">
+<tr><th>年齡帶</th><th>Q2</th><th>占比</th><th>Q3</th><th>占比</th><th>Q2 乙滲透</th><th>Q3 乙滲透</th></tr><tr><td class="lft">未滿1歲</td><td>21</td><td>24%</td><td>28</td><td>28%</td>
+<td>67%</td><td>57%</td></tr><tr><td class="lft">1–2歲</td><td>13</td><td>15%</td><td>19</td><td>19%</td>
+<td>23%</td><td>74%</td></tr><tr><td class="lft">3–4歲</td><td>8</td><td>9%</td><td>17</td><td>17%</td>
+<td>50%</td><td>47%</td></tr><tr><td class="lft">5–6歲</td><td>10</td><td>12%</td><td>7</td><td>7%</td>
+<td>60%</td><td>57%</td></tr><tr><td class="lft">7–8歲</td><td>7</td><td>8%</td><td>8</td><td>8%</td>
+<td>86%</td><td>62%</td></tr><tr><td class="lft">9–10歲</td><td>6</td><td>7%</td><td>7</td><td>7%</td>
+<td>100%</td><td>71%</td></tr><tr><td class="lft">11歲以上</td><td>21</td><td>24%</td><td>14</td><td>14%</td>
+<td>57%</td><td>57%</td></tr></table></div></div>
+<div class="note"><b>案件年輕化與貓化，但加購未受拖累。</b>9 歲以上熟齡占比自 31.4%（27 件）降至 21.0%（21 件）；2 歲以下幼青年占比自 39.5% 升至 47.0%；犬貓比自 43：43 轉為 38：62。熟齡動物本為影像與進階血檢之主要加購族群，客群年輕化理應壓低乙滲透率，<b>但本季滲透率仍自 59.3% 微升至 60.0%</b>——這代表前線在較不利的客群結構下，仍將檢查加購推得更好，屬實質進步。</div>
+<div class="card"><h3 style="margin-top:2px">方案 × 物種分眾</h3><div class="scroll"><table class="tbl">
+<tr><th>分眾</th><th>Q2 件</th><th>Q3 件</th><th>Q2 客單</th><th>Q3 客單</th><th>Q2 乙滲透</th><th>Q3 乙滲透</th><th>Q2 每件乙</th><th>Q3 每件乙</th></tr><tr><td class="lft">A·犬</td><td><b>22</b></td><td><b>23</b></td>
+<td class="num">$4,918</td><td class="num">$4,027</td>
+<td>68%</td><td>52%</td>
+<td class="num">$817</td><td class="num">$504</td></tr><tr><td class="lft">A·貓</td><td><b>28</b></td><td><b>36</b></td>
+<td class="num">$3,871</td><td class="num">$4,050</td>
+<td>54%</td><td>72%</td>
+<td class="num">$441</td><td class="num">$733</td></tr><tr><td class="lft">B·犬</td><td><b>21</b></td><td><b>15</b></td>
+<td class="num">$6,378</td><td class="num">$5,734</td>
+<td>52%</td><td>33%</td>
+<td class="num">$1,291</td><td class="num">$521</td></tr><tr><td class="lft">B·貓</td><td><b>15</b></td><td><b>26</b></td>
+<td class="num">$5,886</td><td class="num">$6,933</td>
+<td>67%</td><td>65%</td>
+<td class="num">$1,113</td><td class="num">$1,732</td></tr></table></div></div>
+<div class="note ok"><b>B · 貓仍為最具價值分眾。</b>Q3 B·貓 26 件、客單 $6,933、乙滲透 65%、每件乙 $1,732（Q2 15 件／$5,886／67%），為四分眾之首，與 Q2 結案報告結論一致。A·貓本季擴張至 36 件、乙滲透 72%（Q2 28 件／54%），量能明顯放大但滲透率仍為四分眾最低，是後續 A→B 升級與影像加購話術的主要空間。舊客客單 $5,171 對新客 $3,790，新客占比 9.0%（Q2 8.1%），新客開發仍偏低。</div>
+</section><section id="s6"><h2>六、加購結構<span class="en">Add-on Structure</span></h2>
+<p class="lead">雙層架構：乙為活動 85 折核心標的（1＋N 之 N）；甲為方案與掛號費外全部項目，反映病歷整體含金量。</p>
+<div class="card"><div class="scroll"><table class="tbl">
+<tr><th>組成</th><th>Q2 金額</th><th>占甲比</th><th>Q3 金額</th><th>占甲比</th><th>倍數</th><th>是否適用 85 折</th></tr><tr><td class="lft">檢查(乙)</td><td class="num">$74,149</td><td>37.2%</td>
+<td class="num">$90,829</td><td>40.9%</td><td><span class="d up">1.22x</span></td><td class="lft" style="font-size:12.5px"><b style="color:var(--teal)">是（活動核心）</b></td></tr><tr><td class="lft">手術/結紮</td><td class="num">$50,630</td><td>25.4%</td>
+<td class="num">$59,000</td><td>26.6%</td><td><span class="d up">1.17x</span></td><td class="lft" style="font-size:12.5px">否（標準價）</td></tr><tr><td class="lft">疫苗</td><td class="num">$13,000</td><td>6.5%</td>
+<td class="num">$18,055</td><td>8.1%</td><td><span class="d up">1.39x</span></td><td class="lft" style="font-size:12.5px">Q3 起適用</td></tr><tr><td class="lft">藥品/其他</td><td class="num">$64,545</td><td>32.4%</td>
+<td class="num">$55,760</td><td>25.1%</td><td><span class="d dn">0.86x</span></td><td class="lft" style="font-size:12.5px">否</td></tr><tr><td class="lft">折讓</td><td class="num">-$3,200</td><td>-1.6%</td>
+<td class="num">-$1,600</td><td>-0.7%</td><td>—</td><td class="lft" style="font-size:12.5px">—</td></tr><tr class="tot"><td class="lft">加購甲合計</td><td class="num">$199,124</td><td>100%</td>
+<td class="num">$222,044</td><td>100%</td><td><span class="d up">1.12x</span></td><td class="lft">全體（含三總院）</td></tr>
+</table></div></div>
+<div class="note ok"><b>「1＋N」的 N 被有效放大——此為本季最重要的正向結論。</b>加購甲總額成長 $22,920（<span class="d up">1.12x</span>），其中<b>檢查類（乙）貢獻增量 $16,680，占甲總增量的 73%</b>，是最大單一成長來源；乙占甲比重自 37.2% 升至 40.9%，成長率 <span class="d up">1.22x</span> 亦高於件數成長 <span class="d up">1.16x</span>。相對地，藥品耗材反而自 $64,545 降至 $55,760（<span class="d dn">0.86x</span>），顯示加購結構由「案件自然衍生」向「活動核心標的」移轉，正是方案設計所欲達成之方向。</div>
+<div class="note"><b>其餘組成之解讀：</b>手術／結紮自 $50,630 增至 $59,000（<span class="d up">1.17x</span>），其中含本季新增之洗牙模組 3 件；此類不適用 85 折，屬標準價處置。疫苗自 $13,000 增至 $18,055，惟依裁示 Q2 疫苗非活動機制帶動、不列為活動加購成效，Q3 可歸因於活動者為「預防針 85 折加購」品項 12 件／$8,330。折讓由 -$3,200 收斂至 -$1,600，主要係結紮補助案件減少所致。</div>
+<div class="grid2">
+<div class="card"><h3 style="margin-top:2px">Q2 檢查類加購項目（依金額）</h3><table class="tbl"><tr><th>項目</th><th>件次</th><th>金額</th></tr><tr><td class="lft">X光-DR</td><td>7</td><td class="num">$14,280</td></tr><tr><td class="lft">X光</td><td>7</td><td class="num">$8,160</td></tr><tr><td class="lft">貓心臟檢測 ProBNP</td><td>10</td><td class="num">$7,580</td></tr><tr><td class="lft">SDMA 犬貓早期腎臟檢測 （搭配全套、半套）</td><td>10</td><td class="num">$5,100</td></tr><tr><td class="lft">SDMA 犬貓早期腎臟檢測</td><td>9</td><td class="num">$4,590</td></tr><tr><td class="lft">心臟超音波+心電圖</td><td>1</td><td class="num">$4,250</td></tr><tr><td class="lft">CRP 發炎指數(犬)</td><td>5</td><td class="num">$3,485</td></tr><tr><td class="lft">IDEXX 4DX 犬四合一快篩</td><td>4</td><td class="num">$3,060</td></tr><tr><td class="lft">x光</td><td>2</td><td class="num">$3,060</td></tr><tr><td class="lft">US全腹腔超音波(不含腸道)</td><td>2</td><td class="num">$2,550</td></tr><tr><td class="lft">QPL胰臟特異性脂肪酶</td><td>3</td><td class="num">$2,295</td></tr><tr><td class="lft">CR</td><td>1</td><td class="num">$2,160</td></tr></table></div><div class="card"><h3 style="margin-top:2px">Q3 檢查類加購項目（依金額）</h3><table class="tbl"><tr><th>項目</th><th>件次</th><th>金額</th></tr><tr><td class="lft">X光-DR</td><td>7</td><td class="num">$10,710</td></tr><tr><td class="lft">X光</td><td>8</td><td class="num">$9,945</td></tr><tr><td class="lft">心臟超音波</td><td>2</td><td class="num">$7,825</td></tr><tr><td class="lft">貓心臟檢測 ProBNP</td><td>10</td><td class="num">$7,650</td></tr><tr><td class="lft">自訂生化儀器檢測 (Catalyst One)</td><td>7</td><td class="num">$7,120</td></tr><tr><td class="lft">SDMA 犬貓早期腎臟檢測</td><td>10</td><td class="num">$5,550</td></tr><tr><td class="lft">自訂血檢儀器檢測 (ProCyte Dx)</td><td>4</td><td class="num">$5,130</td></tr><tr><td class="lft">IDEXX 4DX 犬四合一快篩</td><td>5</td><td class="num">$3,825</td></tr><tr><td class="lft">全腹腔超音波</td><td>2</td><td class="num">$3,400</td></tr><tr><td class="lft">TT4 總甲狀腺素</td><td>3</td><td class="num">$2,700</td></tr><tr><td class="lft">SDMA 犬貓早期腎臟檢測 （搭配全套、半套）</td><td>5</td><td class="num">$2,550</td></tr><tr><td class="lft">US全腹腔超音波(不含腸道)</td><td>2</td><td class="num">$2,550</td></tr></table></div></div>
+<div class="card"><h3 style="margin-top:2px">85 折加購優惠套用率</h3><div class="scroll"><table class="tbl">
+<tr><th>季別</th><th>已套 85 折</th><th>金額</th><th>未套折扣</th><th>金額</th><th>套用率（件次）</th><th>套用率（金額）</th></tr>
+<tr><td>Q2</td><td>{DS['q2']['n85']} 筆</td><td class="num">{money(DS['q2']['a85'])}</td><td>{DS['q2']['nf']} 筆</td><td class="num">{money(DS['q2']['af'])}</td><td><b>{pct(DS['q2']['rate_n'],1)}</b></td><td>{pct(DS['q2']['rate_a'],1)}</td></tr>
+<tr><td>Q3</td><td>{DS['q3']['n85']} 筆</td><td class="num">{money(DS['q3']['a85'])}</td><td>{DS['q3']['nf']} 筆</td><td class="num">{money(DS['q3']['af'])}</td><td><b style="color:var(--red)">{pct(DS['q3']['rate_n'],1)}</b></td><td>{pct(DS['q3']['rate_a'],1)}</td></tr>
+</table></div>
+<h3>Q3 未套折扣之加購項目</h3><table class="tbl"><tr><th>項目</th><th>筆數</th><th>金額</th></tr><tr><td class="lft">自訂血檢儀器檢測 (ProCyte Dx)</td><td>3</td><td class="num">$4,450</td></tr><tr><td class="lft">自訂生化儀器檢測 (Catalyst One)</td><td>4</td><td class="num">$4,400</td></tr><tr><td class="lft">心臟超音波</td><td>1</td><td class="num">$4,000</td></tr><tr><td class="lft">SDMA 犬貓早期腎臟檢測</td><td>5</td><td class="num">$3,000</td></tr><tr><td class="lft">TT4 總甲狀腺素</td><td>3</td><td class="num">$2,700</td></tr><tr><td class="lft">維克三合一</td><td>1</td><td class="num">$900</td></tr><tr><td class="lft">血液生化離子(Lyte 4)</td><td>1</td><td class="num">$500</td></tr><tr><td class="lft">IR-1</td><td>2</td><td class="num">$450</td></tr><tr><td class="lft">血壓量測</td><td>2</td><td class="num">$400</td></tr><tr><td class="lft">US</td><td>1</td><td class="num">$300</td></tr><tr class="tot"><td class="lft">合計</td><td>25</td><td class="num">$21,520</td></tr></table></div>
+<div class="note warn"><b>加購優惠套用率由 88.5% 降至 75.7%，為本季最明確的執行退步。</b>Q3 有 25 筆加購檢驗、合計 $21,520 未依規定將折扣欄設為 0.85，占加購檢驗金額之 22.9%（Q2 僅 9.5%）。集中於院內儀器檢測（ProCyte Dx、Catalyst One）、SDMA、TT4 與心臟超音波。此為<b>直接的飼主權益損害</b>——飼主未獲得應有折扣，且與活動宣傳不一致；同時使加購金額虛增，成效判讀失真。建議列入每週稽核之固定檢核項目，並於門診費用區完成三方核對前強制確認折扣欄位。</div>
+<div class="card"><h3 style="margin-top:2px">B 方案「檢驗自選一項」開單合規（Q3 全部 49 件 B 方案）</h3>
+<table class="tbl"><tr><th>狀態</th><th>件數</th><th>占比</th><th>說明</th></tr>
+<tr><td class="lft">合規</td><td><b>38</b></td><td>77.6%</td><td class="lft">已開立五選一品項且內含項目單價歸零</td></tr>
+<tr class="bad"><td class="lft">未見五選一品項</td><td><b>10</b></td><td>20.4%</td><td class="lft">病歷中未見犬四合一／貓三合一快篩、TT4、proBNP、SDMA 任一項，方案內含權益未執行或未開單</td></tr>
+<tr class="bad"><td class="lft">內含項目遭收費</td><td><b>1</b></td><td>2.0%</td><td class="lft">有五選一品項但無任一筆歸零，等同向飼主重複收取方案內含項目</td></tr>
+</table>
+<h3>異常明細</h3><div class="scroll"><table class="tbl"><tr><th>日期</th><th>院別</th><th>判定</th><th>情形</th><th>審核註記</th></tr><tr><td>07-17</td><td class="lft">中華分院</td><td>通過</td>
+<td class="lft" style="font-size:12.5px">未見五選一品項</td><td class="lft" style="font-size:12px">健檢後發現肝指數高</td></tr><tr><td>07-20</td><td class="lft">中華分院</td><td>通過</td>
+<td class="lft" style="font-size:12.5px">未見五選一品項</td><td class="lft" style="font-size:12px">口炎貓 洗牙術前評估</td></tr><tr><td>07-28</td><td class="lft">北屯分院</td><td>待複核</td>
+<td class="lft" style="font-size:12.5px">未見五選一品項</td><td class="lft" style="font-size:12px">咳嗽+多渴多尿狗回診驗肝指數</td></tr><tr><td>07-29</td><td class="lft">台北總院</td><td>通過</td>
+<td class="lft" style="font-size:12.5px">未見五選一品項</td><td class="lft" style="font-size:12px">癲癇病史(現無發作)想健檢</td></tr><tr><td>07-29</td><td class="lft">台北總院</td><td>通過</td>
+<td class="lft" style="font-size:12.5px">未見五選一品項</td><td class="lft" style="font-size:12px">醫師沒有使用加購優惠</td></tr><tr><td>08-08</td><td class="lft">台北總院</td><td>通過</td>
+<td class="lft" style="font-size:12.5px">五選一未歸零（內含項目遭收費）</td><td class="lft" style="font-size:12px">健檢；SDMA應該包含於方案而不用收費</td></tr><tr><td>07-18</td><td class="lft">苗栗縣府分院</td><td>通過</td>
+<td class="lft" style="font-size:12.5px">未見五選一品項</td><td class="lft" style="font-size:12px"></td></tr><tr><td>07-24</td><td class="lft">苗栗縣府分院</td><td>待複核</td>
+<td class="lft" style="font-size:12.5px">未見五選一品項</td><td class="lft" style="font-size:12px">放養的頻尿血尿貓</td></tr><tr><td>07-24</td><td class="lft">苗栗縣府分院</td><td>通過</td>
+<td class="lft" style="font-size:12.5px">未見五選一品項</td><td class="lft" style="font-size:12px"></td></tr><tr><td>07-24</td><td class="lft">苗栗縣府分院</td><td>通過</td>
+<td class="lft" style="font-size:12.5px">未見五選一品項</td><td class="lft" style="font-size:12px"></td></tr><tr><td>07-26</td><td class="lft">金華分院</td><td>通過</td>
+<td class="lft" style="font-size:12.5px">未見五選一品項</td><td class="lft" style="font-size:12px"></td></tr></table></div></div>
+<div class="note warn"><b>B 方案內含權益之落地率僅 77.6%。</b>10 件未見任何五選一品項——B 方案本季以「檢驗自選一項」取代原固定快篩，此設計的價值全繫於該項目確實執行；若未開單，飼主付了 B 方案價格卻未獲得對應內容。另 1 件雖有品項但未歸零，屬重複收費。兩者合計 11 件（22.4%），且集中於苗栗縣府（4 件）、台北總院（3 件）、中華（2 件）。建議即刻回饋並要求補正。</div>
+<div class="note">兩季主力項目高度一致（X 光、心臟檢測 ProBNP、SDMA 腎臟早篩、超音波），顯示醫師加購建議偏好穩定。Q3 明顯增加者為院內儀器檢測（Catalyst One 生化、ProCyte Dx 血檢）與快篩套組；血壓量測 5 件係該項目自 B 方案內含改為 85 折加購後之成效，屬方案結構優化的直接貢獻。</div>
+</section><section id="s7"><h2>七、Q3 健檢情境分析<span class="q3only">Q3 專屬</span><span class="en">Scenario Mix</span></h2>
+<p class="lead">Q3 於認定規則中新增「健檢情境」欄位並逐案人工標註，Q2 無對應欄位，故本節僅呈現 Q3 單季結構。情境可複選，合計大於案件數。</p>
+<div class="card"><div class="scroll"><table class="tbl"><tr><th>情境</th><th>件數</th><th>占計入件數</th><th>客單價</th><th>乙滲透</th><th>每件乙</th><th>Q2 是否計入</th></tr><tr><td class="lft">影像/加驗</td><td><b>57</b></td><td>57%</td>
+<td class="num">$5,566</td><td>98%</td><td class="num">$1,573</td>
+<td class="lft" style="font-size:12.5px">計入（同為檢查加購）</td></tr><tr><td class="lft">純健檢</td><td><b>20</b></td><td>20%</td>
+<td class="num">$3,526</td><td>5%</td><td class="num">$25</td>
+<td class="lft" style="font-size:12.5px">計入</td></tr><tr><td class="lft">結紮</td><td><b>19</b></td><td>19%</td>
+<td class="num">$6,856</td><td>53%</td><td class="num">$471</td>
+<td class="lft" style="font-size:12.5px">計入（健康動物術前既有規則）</td></tr><tr><td class="lft">疫苗</td><td><b>15</b></td><td>15%</td>
+<td class="num">$4,970</td><td>53%</td><td class="num">$820</td>
+<td class="lft" style="font-size:12.5px">計入案件，惟不列為活動加購</td></tr><tr><td class="lft">驅蟲</td><td><b>6</b></td><td>6%</td>
+<td class="num">$3,598</td><td>33%</td><td class="num">$255</td>
+<td class="lft" style="font-size:12.5px">計入（商品加購）</td></tr><tr><td class="lft">洗牙</td><td><b>3</b></td><td>3%</td>
+<td class="num">$8,440</td><td>67%</td><td class="num">$1,275</td>
+<td class="lft" style="font-size:12.5px"><b>不計入（Q3 新開放）</b></td></tr><tr><td class="lft">皮膚病</td><td><b>2</b></td><td>2%</td>
+<td class="num">$5,200</td><td>0%</td><td class="num">$0</td>
+<td class="lft" style="font-size:12.5px"><b>不計入（Q3 新開放）</b></td></tr></table></div></div>
+<div class="note ok"><b>Q3 放寬機制的實際貢獻為 5 件（占計入件數 5.0%）：</b>洗牙 3 件、皮膚病 2 件，依裁示不予扣除並視為本季新增之有效案源。洗牙 3 件客單價達 $8,440，為所有情境之首、遠高於整體 $5,047，驗證了牙科整併之高含金量假設，建議列為後續期間重點推廣主題。「影像／加驗」情境 57 件、乙滲透 98%、每件乙 $1,573，為本季主要價值來源；「純健檢」20 件則為僅做方案本體、無任何加購之案件，是最直接的加購提升標的。</div>
+</section><section id="s8"><h2>八、醫師成效<span class="en">Veterinarian Performance</span></h2>
+<p class="lead">依 Q3 件數排序；同一醫師若跨季異動院所，Q2 欄僅呈現其於同院之數字。開單醫師數自 Q2 17 位增至 Q3 22 位。</p>
+<div class="card"><div class="scroll"><table class="tbl">
+<tr><th>院別</th><th>醫師</th><th>Q2 件</th><th>Q3 件</th><th>Q2 客單</th><th>Q3 客單</th><th>Q2 乙滲透</th><th>Q3 乙滲透</th><th>Q3 每件乙</th><th>Q3 乙占甲</th></tr><tr><td class="lft">北屯分院</td><td class="lft">蕭絢燦</td><td>3</td><td><b>15</b></td>
+<td class="num">$4,912</td><td class="num">$4,952</td>
+<td>67%</td><td>20%</td>
+<td class="num">$170</td><td>9%</td></tr><tr><td class="lft">中華分院</td><td class="lft">吳瑞紘</td><td>19</td><td><b>13</b></td>
+<td class="num">$4,109</td><td class="num">$4,075</td>
+<td>37%</td><td>46%</td>
+<td class="num">$213</td><td>12%</td></tr><tr><td class="lft">高雄分院</td><td class="lft">廖凌君</td><td>8</td><td><b>11</b></td>
+<td class="num">$3,878</td><td class="num">$5,489</td>
+<td>88%</td><td>73%</td>
+<td class="num">$865</td><td>35%</td></tr><tr><td class="lft">苗栗縣府分院</td><td class="lft">朱彥勳</td><td>—</td><td><b>11</b></td>
+<td class="num">—</td><td class="num">$3,146</td>
+<td>—</td><td>55%</td>
+<td class="num">$730</td><td>94%</td></tr><tr><td class="lft">仁德分院</td><td class="lft">黃威洲</td><td>6</td><td><b>10</b></td>
+<td class="num">$4,048</td><td class="num">$3,650</td>
+<td>33%</td><td>80%</td>
+<td class="num">$700</td><td>49%</td></tr><tr><td class="lft">九如分院</td><td class="lft">陳勃維</td><td>11</td><td><b>7</b></td>
+<td class="num">$8,417</td><td class="num">$8,099</td>
+<td>91%</td><td>100%</td>
+<td class="num">$1,882</td><td>44%</td></tr><tr><td class="lft">苗栗縣府分院</td><td class="lft">葉英良</td><td>—</td><td><b>4</b></td>
+<td class="num">—</td><td class="num">$9,112</td>
+<td>—</td><td>100%</td>
+<td class="num">$1,375</td><td>19%</td></tr><tr><td class="lft">苗栗縣府分院</td><td class="lft">王中聖</td><td>—</td><td><b>4</b></td>
+<td class="num">—</td><td class="num">$3,890</td>
+<td>—</td><td>50%</td>
+<td class="num">$1,000</td><td>72%</td></tr><tr><td class="lft">台北總院</td><td class="lft">陳美文</td><td>—</td><td><b>3</b></td>
+<td class="num">—</td><td class="num">$5,977</td>
+<td>—</td><td>100%</td>
+<td class="num">$1,500</td><td>85%</td></tr><tr><td class="lft">台北總院</td><td class="lft">吳明真</td><td>1</td><td><b>3</b></td>
+<td class="num">$5,950</td><td class="num">$4,150</td>
+<td>100%</td><td>0%</td>
+<td class="num">$0</td><td>0%</td></tr><tr><td class="lft">金華分院</td><td class="lft">郭福添</td><td>8</td><td><b>3</b></td>
+<td class="num">$4,694</td><td class="num">$4,998</td>
+<td>75%</td><td>33%</td>
+<td class="num">$482</td><td>26%</td></tr><tr><td class="lft">彰化中山分院</td><td class="lft">林哲安</td><td>7</td><td><b>3</b></td>
+<td class="num">$5,639</td><td class="num">$4,433</td>
+<td>86%</td><td>100%</td>
+<td class="num">$850</td><td>35%</td></tr><tr><td class="lft">大灣分院</td><td class="lft">王郁婷</td><td>—</td><td><b>2</b></td>
+<td class="num">—</td><td class="num">$4,510</td>
+<td>—</td><td>100%</td>
+<td class="num">$1,615</td><td>66%</td></tr><tr><td class="lft">曼哈頓分院</td><td class="lft">葉肇晟</td><td>—</td><td><b>2</b></td>
+<td class="num">—</td><td class="num">$5,468</td>
+<td>—</td><td>50%</td>
+<td class="num">$1,418</td><td>100%</td></tr><tr><td class="lft">曼哈頓分院</td><td class="lft">江盈</td><td>—</td><td><b>2</b></td>
+<td class="num">—</td><td class="num">$10,285</td>
+<td>—</td><td>100%</td>
+<td class="num">$5,780</td><td>96%</td></tr><tr><td class="lft">台北總院</td><td class="lft">不指定</td><td>—</td><td><b>1</b></td>
+<td class="num">—</td><td class="num">$5,000</td>
+<td>—</td><td>100%</td>
+<td class="num">$500</td><td>20%</td></tr><tr><td class="lft">台北總院</td><td class="lft">胡甸浩</td><td>—</td><td><b>1</b></td>
+<td class="num">—</td><td class="num">$4,750</td>
+<td>—</td><td>0%</td>
+<td class="num">$0</td><td>0%</td></tr><tr><td class="lft">台中總院</td><td class="lft">郭妍彣</td><td>—</td><td><b>1</b></td>
+<td class="num">—</td><td class="num">$8,765</td>
+<td>—</td><td>100%</td>
+<td class="num">$5,015</td><td>100%</td></tr><tr><td class="lft">仁德分院</td><td class="lft">宋耀騰</td><td>—</td><td><b>1</b></td>
+<td class="num">—</td><td class="num">$3,890</td>
+<td>—</td><td>100%</td>
+<td class="num">$1,840</td><td>100%</td></tr><tr><td class="lft">仁德分院</td><td class="lft">張盈羚</td><td>—</td><td><b>1</b></td>
+<td class="num">—</td><td class="num">$2,645</td>
+<td>—</td><td>0%</td>
+<td class="num">$0</td><td>0%</td></tr><tr><td class="lft">曼哈頓分院</td><td class="lft">陳禮寧</td><td>—</td><td><b>1</b></td>
+<td class="num">—</td><td class="num">$10,350</td>
+<td>—</td><td>100%</td>
+<td class="num">$4,800</td><td>76%</td></tr><tr><td class="lft">苗栗縣府分院</td><td class="lft">江旻璿</td><td>—</td><td><b>1</b></td>
+<td class="num">—</td><td class="num">$2,645</td>
+<td>—</td><td>0%</td>
+<td class="num">$0</td><td>0%</td></tr></table></div></div><div class="card"><h3 style="margin-top:2px">Q2 有開單、Q3 未開單之醫師</h3><table class="tbl">
+<tr><th>院別</th><th>醫師</th><th>Q2 件</th><th>Q2 客單</th><th>Q2 乙滲透</th></tr><tr><td class="lft">嘉義西區分院</td><td class="lft">蔡承峯</td><td>8</td><td class="num">$5,706</td><td>25%</td></tr><tr><td class="lft">台中總院</td><td class="lft">葉英良</td><td>4</td><td class="num">$4,385</td><td>25%</td></tr><tr><td class="lft">嘉義西區分院</td><td class="lft">賴柏宇</td><td>3</td><td class="num">$4,930</td><td>67%</td></tr><tr><td class="lft">仁德分院</td><td class="lft">謝嗣哲</td><td>2</td><td class="num">$3,950</td><td>0%</td></tr><tr><td class="lft">台南總院</td><td class="lft">鄭文欽</td><td>2</td><td class="num">$5,968</td><td>100%</td></tr><tr><td class="lft">金華分院</td><td class="lft">謝嗣哲</td><td>1</td><td class="num">$3,240</td><td>100%</td></tr><tr><td class="lft">台南總院</td><td class="lft">張程智</td><td>1</td><td class="num">$4,195</td><td>100%</td></tr><tr><td class="lft">彰化中山分院</td><td class="lft">王中聖</td><td>1</td><td class="num">$3,415</td><td>100%</td></tr><tr><td class="lft">台南總院</td><td class="lft">謝東翰</td><td>1</td><td class="num">$6,450</td><td>0%</td></tr></table><p style="font-size:12.5px;color:var(--ink-faint);margin:8px 0 0">本表可能包含院所異動、排班或停業因素，非必然代表推廣意願變化，建議與人事資料交叉確認後再解讀。</p></div>
+</section><section id="s9"><h2>九、案例分析<span class="en">Case Review</span></h2>
+<p class="lead">高含金量案例呈現「1＋N」的最佳實踐樣態；未計入案件則指向需即刻回饋前線的執行落差。</p>
+<div class="card"><h3 style="margin-top:2px">Q3 高客單案例（前 8 名）</h3><div class="scroll"><table class="tbl">
+<tr><th>日期</th><th>院別</th><th>醫師</th><th>物種</th><th>年齡帶</th><th>方案</th><th>健檢情境</th><th>加購乙</th><th>加購甲</th><th>就診總額</th></tr><tr><td>08-01</td><td class="lft">九如分院</td><td>陳勃維</td><td>貓</td><td>3–4歲</td>
+<td>B</td><td style="font-size:12px">影像/加驗＋疫苗＋洗牙</td><td class="num">$3,060</td>
+<td class="num">$7,760</td><td class="num"><b>$11,510</b></td></tr><tr><td>08-01</td><td class="lft">九如分院</td><td>陳勃維</td><td>狗</td><td>11歲以上</td>
+<td>B</td><td style="font-size:12px">影像/加驗</td><td class="num">$2,295</td>
+<td class="num">$7,040</td><td class="num"><b>$10,890</b></td></tr><tr><td>07-21</td><td class="lft">苗栗縣府分院</td><td>葉英良</td><td>狗</td><td>1–2歲</td>
+<td>A</td><td style="font-size:12px">影像/加驗＋結紮</td><td class="num">$1,150</td>
+<td class="num">$8,700</td><td class="num"><b>$10,750</b></td></tr><tr><td>07-31</td><td class="lft">曼哈頓分院</td><td>江盈</td><td>貓</td><td>11歲以上</td>
+<td>B</td><td style="font-size:12px">影像/加驗</td><td class="num">$5,780</td>
+<td class="num">$6,290</td><td class="num"><b>$10,540</b></td></tr><tr><td>08-06</td><td class="lft">曼哈頓分院</td><td>陳禮寧</td><td>貓</td><td>11歲以上</td>
+<td>B</td><td style="font-size:12px">影像/加驗</td><td class="num">$4,800</td>
+<td class="num">$6,300</td><td class="num"><b>$10,350</b></td></tr><tr><td>07-31</td><td class="lft">曼哈頓分院</td><td>江盈</td><td>貓</td><td>11歲以上</td>
+<td>B</td><td style="font-size:12px">影像/加驗</td><td class="num">$5,780</td>
+<td class="num">$5,780</td><td class="num"><b>$10,030</b></td></tr><tr><td>08-07</td><td class="lft">台中總院</td><td>郭妍彣</td><td>貓</td><td>3–4歲</td>
+<td>B</td><td style="font-size:12px">影像/加驗</td><td class="num">$5,015</td>
+<td class="num">$5,015</td><td class="num"><b>$8,765</b></td></tr><tr><td>07-21</td><td class="lft">苗栗縣府分院</td><td>葉英良</td><td>貓</td><td>1–2歲</td>
+<td>A</td><td style="font-size:12px">影像/加驗＋結紮</td><td class="num">$1,050</td>
+<td class="num">$6,650</td><td class="num"><b>$8,700</b></td></tr></table></div></div>
+<div class="card"><h3 style="margin-top:2px">Q2 高客單案例（前 8 名）</h3><div class="scroll"><table class="tbl">
+<tr><th>日期</th><th>院別</th><th>醫師</th><th>物種</th><th>年齡帶</th><th>方案</th><th>加購乙</th><th>加購甲</th><th>就診總額</th></tr><tr><td>03-21</td><td class="lft">九如分院</td><td>陳勃維</td><td>狗</td><td>9–10歲</td>
+<td>B</td><td class="num">$4,930</td><td class="num">$9,030</td><td class="num"><b>$12,880</b></td></tr><tr><td>04-01</td><td class="lft">九如分院</td><td>陳勃維</td><td>貓</td><td>11歲以上</td>
+<td>B</td><td class="num">$3,060</td><td class="num">$9,010</td><td class="num"><b>$12,860</b></td></tr><tr><td>03-20</td><td class="lft">九如分院</td><td>陳勃維</td><td>狗</td><td>11歲以上</td>
+<td>B</td><td class="num">$5,355</td><td class="num">$8,555</td><td class="num"><b>$12,305</b></td></tr><tr><td>04-09</td><td class="lft">台南總院</td><td>鄭文欽</td><td>狗</td><td>9–10歲</td>
+<td>B</td><td class="num">$5,270</td><td class="num">$5,270</td><td class="num"><b>$9,120</b></td></tr><tr><td>03-24</td><td class="lft">九如分院</td><td>陳勃維</td><td>狗</td><td>11歲以上</td>
+<td>B</td><td class="num">$3,570</td><td class="num">$5,120</td><td class="num"><b>$8,970</b></td></tr><tr><td>03-21</td><td class="lft">嘉義西區分院</td><td>蔡承峯</td><td>貓</td><td>未滿1歲</td>
+<td>A</td><td class="num">$900</td><td class="num">$6,550</td><td class="num"><b>$8,500</b></td></tr><tr><td>03-28</td><td class="lft">彰化中山分院</td><td>林哲安</td><td>狗</td><td>未滿1歲</td>
+<td>A</td><td class="num">$1,020</td><td class="num">$6,550</td><td class="num"><b>$8,500</b></td></tr><tr><td>03-16</td><td class="lft">嘉義西區分院</td><td>蔡承峯</td><td>狗</td><td>1–2歲</td>
+<td>A</td><td class="num">$0</td><td class="num">$6,000</td><td class="num"><b>$7,950</b></td></tr></table></div></div>
+<div class="note ok"><b>最佳實踐樣態：</b>Q3 最高客單案例為九如分院 $11,510（B 方案＋影像/加驗＋疫苗＋洗牙），完整體現「核心血檢＋洗牙麻醉模組＋同次影像加購」之 1＋N 組合。此類案件共通特徵為<b>熟齡、B 方案、同次多項檢查</b>，與第五節分眾結論一致，建議作為前線話術教材。</div>
+<div class="card"><h3 style="margin-top:2px">Q3 未計入案件（違規 6 件、待複核 7 件）</h3><div class="scroll"><table class="tbl">
+<tr><th>日期</th><th>院別</th><th>方案</th><th>判定</th><th>情境</th><th>原因摘要</th><th>就診總額</th></tr><tr><td>07-17</td><td class="lft">中華分院</td><td>A</td>
+<td><b style="color:var(--gold)">待複核</b></td>
+<td style="font-size:12px">純健檢</td><td class="lft" style="font-size:12.5px">CKD貓持續追蹤+飼主要求健檢方案</td><td class="num">$4,180</td></tr><tr><td>07-24</td><td class="lft">苗栗縣府分院</td><td>B</td>
+<td><b style="color:var(--gold)">待複核</b></td>
+<td style="font-size:12px">影像/加驗</td><td class="lft" style="font-size:12.5px">放養的頻尿血尿貓</td><td class="num">$5,785</td></tr><tr><td>07-28</td><td class="lft">北屯分院</td><td>B</td>
+<td><b style="color:var(--gold)">待複核</b></td>
+<td style="font-size:12px">純健檢</td><td class="lft" style="font-size:12.5px">咳嗽+多渴多尿狗回診驗肝指數</td><td class="num">$7,400</td></tr><tr><td>07-31</td><td class="lft">北屯分院</td><td>B</td>
+<td><b style="color:var(--gold)">待複核</b></td>
+<td style="font-size:12px">純健檢</td><td class="lft" style="font-size:12.5px">疑似感冒+SA下降；溝通後健檢</td><td class="num">$4,950</td></tr><tr><td>08-02</td><td class="lft">高雄分院</td><td>A</td>
+<td><b style="color:var(--gold)">待複核</b></td>
+<td style="font-size:12px">影像/加驗</td><td class="lft" style="font-size:12.5px">CKD stage3 回診+血檢追蹤</td><td class="num">$3,897</td></tr><tr><td>08-02</td><td class="lft">曼哈頓分院</td><td>B</td>
+<td><b style="color:var(--gold)">待複核</b></td>
+<td style="font-size:12px">影像/加驗</td><td class="lft" style="font-size:12.5px">醫師少收TT4的費用！</td><td class="num">$4,250</td></tr><tr><td>08-05</td><td class="lft">北屯分院</td><td>A</td>
+<td><b style="color:var(--gold)">待複核</b></td>
+<td style="font-size:12px">影像/加驗</td><td class="lft" style="font-size:12.5px">購買自東寵，帶回後軟便健檢；病歷有糞檢但費用沒有收(?</td><td class="num">$4,115</td></tr><tr class="bad"><td>07-20</td><td class="lft">台北總院</td><td>A</td>
+<td><b style="color:var(--red)">違規</b></td>
+<td style="font-size:12px">不符-因病就醫</td><td class="lft" style="font-size:12.5px">癲癇發作就醫</td><td class="num">$4,440</td></tr><tr class="bad"><td>08-01</td><td class="lft">金華分院</td><td>B</td>
+<td><b style="color:var(--red)">違規</b></td>
+<td style="font-size:12px">不符-因病就醫</td><td class="lft" style="font-size:12.5px">體重下降+口腔流血</td><td class="num">$7,465</td></tr><tr class="bad"><td>08-07</td><td class="lft">台南總院</td><td>B</td>
+<td><b style="color:var(--red)">違規</b></td>
+<td style="font-size:12px">不符-其他</td><td class="lft" style="font-size:12.5px">收費不符合規則(每個項目打8折?)</td><td class="num">$3,560</td></tr><tr class="bad"><td>08-07</td><td class="lft">台南總院</td><td>B</td>
+<td><b style="color:var(--red)">違規</b></td>
+<td style="font-size:12px">不符-其他</td><td class="lft" style="font-size:12.5px">收費不符合規則(每個項目打8折?)</td><td class="num">$4,040</td></tr><tr class="bad"><td>08-07</td><td class="lft">台南總院</td><td>B</td>
+<td><b style="color:var(--red)">違規</b></td>
+<td style="font-size:12px">不符-其他</td><td class="lft" style="font-size:12.5px">收費不符合規則(每個項目打8折?)</td><td class="num">$4,040</td></tr><tr class="bad"><td>08-09</td><td class="lft">中華分院</td><td>A</td>
+<td><b style="color:var(--red)">違規</b></td>
+<td style="font-size:12px">不符-因病就醫</td><td class="lft" style="font-size:12.5px">咳嗽+頻尿；想抽血健檢</td><td class="num">$4,110</td></tr></table></div></div>
+<div class="card"><h3 style="margin-top:2px">收費執行異常案件（依逐案審核註記）</h3><div class="scroll"><table class="tbl">
+<tr><th>日期</th><th>院別</th><th>方案</th><th>判定</th><th>情形</th><th>就診總額</th></tr><tr><td>07-18</td><td class="lft">中華分院</td><td>A</td>
+<td>通過</td><td class="lft" style="font-size:12.5px">有打疫苗但沒有使用加購優惠</td><td class="num">$7,450</td></tr><tr><td>07-20</td><td class="lft">中華分院</td><td>A</td>
+<td>通過</td><td class="lft" style="font-size:12.5px">有打疫苗但沒有使用加購優惠</td><td class="num">$4,450</td></tr><tr><td>08-06</td><td class="lft">中華分院</td><td>A</td>
+<td>通過</td><td class="lft" style="font-size:12.5px">SDMA沒有給飼主加購價</td><td class="num">$2,850</td></tr><tr><td>08-08</td><td class="lft">九如分院</td><td>B</td>
+<td>通過</td><td class="lft" style="font-size:12.5px">結紮術前檢查；SDMA沒有收加購費</td><td class="num">$5,040</td></tr><tr><td>08-05</td><td class="lft">北屯分院</td><td>A</td>
+<td>待複核</td><td class="lft" style="font-size:12.5px">購買自東寵，帶回後軟便健檢；病歷有糞檢但費用沒有收(?</td><td class="num">$4,115</td></tr><tr><td>07-18</td><td class="lft">台北總院</td><td>B</td>
+<td>通過</td><td class="lft" style="font-size:12.5px">飼主需求健檢，但醫師沒有完全遵守優惠價</td><td class="num">$6,430</td></tr><tr><td>07-27</td><td class="lft">台北總院</td><td>A</td>
+<td>通過</td><td class="lft" style="font-size:12.5px">皮膚回診+健檢；多收了半套血檢費用飼主沒發現?</td><td class="num">$5,000</td></tr><tr><td>07-29</td><td class="lft">台北總院</td><td>B</td>
+<td>通過</td><td class="lft" style="font-size:12.5px">醫師沒有使用加購優惠</td><td class="num">$5,600</td></tr><tr><td>08-08</td><td class="lft">台北總院</td><td>B</td>
+<td>通過</td><td class="lft" style="font-size:12.5px">健檢；SDMA應該包含於方案而不用收費</td><td class="num">$4,750</td></tr><tr><td>08-07</td><td class="lft">台南總院</td><td>B</td>
+<td>違規</td><td class="lft" style="font-size:12.5px">收費不符合規則(每個項目打8折?)</td><td class="num">$3,560</td></tr><tr><td>08-07</td><td class="lft">台南總院</td><td>B</td>
+<td>違規</td><td class="lft" style="font-size:12.5px">收費不符合規則(每個項目打8折?)</td><td class="num">$4,040</td></tr><tr><td>08-07</td><td class="lft">台南總院</td><td>B</td>
+<td>違規</td><td class="lft" style="font-size:12.5px">收費不符合規則(每個項目打8折?)</td><td class="num">$4,040</td></tr><tr><td>08-02</td><td class="lft">曼哈頓分院</td><td>B</td>
+<td>待複核</td><td class="lft" style="font-size:12.5px">醫師少收TT4的費用！</td><td class="num">$4,250</td></tr><tr><td>08-06</td><td class="lft">曼哈頓分院</td><td>B</td>
+<td>通過</td><td class="lft" style="font-size:12.5px">追蹤心臟狀況；醫師沒有提供加購優惠價</td><td class="num">$10,350</td></tr><tr><td>07-27</td><td class="lft">金華分院</td><td>B</td>
+<td>通過</td><td class="lft" style="font-size:12.5px">2023使用過東寵優惠；沒收掛號費</td><td class="num">$5,195</td></tr><tr class="tot"><td class="lft" colspan="5">合計 15 件，占全部 113 件之 13%</td><td class="num">$77,120</td></tr>
+</table></div></div>
+<div class="note warn"><b>需即刻回饋前線之三項執行落差：</b>其一，台南總院 3 件全數判定違規，原因均為「收費不符規則（各項目逕行 8 折）」——屬系統操作與折扣設定錯誤，非認定爭議，應立即依 NX 開單 SOP 之「三方共同檢核表」重新教育，並回溯確認是否有更多同型案件。其二，因病就醫誤用健檢價 3 件（癲癇發作、咳嗽頻尿、體重下降合併口腔出血），顯示「健檢非疾病檢查」之界線在前線仍有鬆動，建議於週會重申 Q3 開放範圍外一律不計入之原則。其三，收費未依方案規則執行者達 <b>15 件（占全部 113 件之 13%）</b>，含未使用 85 折加購優惠、應含於方案內之項目另行收費、少收或漏收檢驗費、未收掛號費等，詳見下表。</div>
+</section><section id="s10"><h2>十、結論與後續建議<span class="en">Conclusion</span></h2>
+<div class="card"><ol class="clean">
+<li><b>量與質同步提升，方案設計運作正常。</b>分院 26 天件數自 77 增至 91 件（<span class="d up">1.18x</span>），檢查類加購金額自 $74,149 增至 $90,829（<span class="d up">1.22x</span>），<b>加購成長率高於件數成長率</b>；乙占加購甲比重 37.2% → 40.9%，每件乙 $862 → $908。「1＋N」的 N 已被有效放大，且此成長發生在客群年輕化、貓化（理應不利加購）的結構下，屬實質進步。惟須扣抵血壓改列付費加購之制度紅利（5 件）。</li>
+<li><b>但達成進度落後，季末達標風險高。</b>分院目標由 165 上調至 238 件（＋44%），件數成長追不上目標調幅，26 天達成進度自 46.7% 降至 38.2%（不含 嘉義西區分院 43.4% → 41.2%），進度指數 1.79 → 1.47。11 分院中僅 7 院達等速基準。<b>建議即刻評估目標合理性，或於 8 月中前加大推動力度</b>，避免季末大面積未達標而使基本獎金無從發放。</li>
+<li><b>成長來自結構重分配。</b>6 院增加 46 件、5 院減少 32 件。苗栗縣府（0→20，指數 2.04）、北屯（3→15，指數 2.68）為本季雙引擎——兩院於 Q2 開跑首 26 天分別為 0 件與 3 件，差異來自本季前線推動力度而非院所規模；中華（19→13）、金華（9→3）、彰化中山（8→3）、九如（11→6）等 Q2 前段班全面回落，建議個別訪談確認動線鬆脫原因。</li>
+<li><b>檢查加購輔導對象已可精準鎖定。</b>件數 5 件以上而乙滲透低於 35% 者為：北屯分院（20%、每件乙 $170）。相對表現優異者為 九如分院（100%）、曼哈頓分院（80%）、仁德分院（75%）、高雄分院（73%）、苗栗縣府分院（60%）。建議由後者輸出話術與動線做法至前者。</li>
+<li><b>Q3 新機制初見成效。</b>放寬認定貢獻 5 件（洗牙 3、皮膚病 2），洗牙客單 $8,440 為所有情境之首；新增預防針 85 折加購 12 件／$8,330。牙科整併之高含金量假設獲初步驗證，建議列為後續期間重點推廣主題並擴大宣導。</li>
+<li><b>B · 貓維持最佳、A · 貓為最大空間。</b>B·貓 26 件、客單 $6,933、乙滲透 65%；A·貓量能擴張至 36 件但乙滲透僅 72%，為四分眾最低。建議針對貓科 A 方案客群強化 A→B 升級與影像加購話術。另「純健檢」情境 20 件（占 20%）完全無加購，是最直接的提升標的。</li>
+<li><b>台北總院為總院組唯一亮點。</b>26 天件數自 1 增至 8 件、客單 $5,016、乙滲透 50%、乙占甲 51%（三組最高）、B 方案 6／8 件。Q2 結案報告曾指出三總院受急重症與門診結構影響、達成率偏低；本季改採個人業績制後該院明顯回升，建議將其動線設計作為另兩家總院之參考範本。台南總院則 3 件全數違規、計入 0 件，須另案處理。</li>
+<li><b>執行品質須即刻補強。</b>台南總院折扣設定錯誤 3 件、因病就醫誤用 3 件、醫師少收費用 2 件、通用品名開單 1 件。建議以 NX 開單 SOP 之「三方共同檢核表」為工具重新教育，並將違規類型納入每週稽核回饋。</li>
+<li><b>加購優惠套用率退步為當前最須立即處理的問題。</b>Q3 有 25 筆加購檢驗、合計 $21,520 未依規定套用 0.85 折扣，占加購檢驗金額 22.9%（Q2 僅 9.5%）；套用率由 88.5% 降至 75.7%。飼主未獲得應有折扣，與活動宣傳不一致，屬直接的權益損害。建議列為每週稽核固定項目。</li>
+<li><b>B 方案「檢驗自選一項」落地率僅 77.6%。</b>10 件未見任何五選一品項（方案內含權益未執行或未開單）、1 件內含項目遭收費，合計 11 件、占 B 方案 22.4%，集中於苗栗縣府、台北總院與中華。B 方案本季以此項取代原固定快篩，設計價值全繫於確實執行，建議即刻回饋補正。</li>
+<li><b>收費執行紀律為重要漏損來源。</b>15 件（13%）存在收費未依規則執行之情形，其中台南總院 3 件全項 8 折已判違規，其餘含未使用 85 折加購優惠、應內含項目另收、少收檢驗費等。此類問題不影響案件認定，但直接侵蝕方案毛利與飼主觀感一致性，建議列為八月份前線教育之首要主題。另發現九如分院 4 件 B 方案使用北部規格 Chem15（中南部應為 Chem17），價格雖正確，仍請確認係品項設定或開單選擇所致。</li>
+</ol></div></section><section id="s11"><h2>十一、資料缺口與後續待補<span class="en">Data Gaps</span></h2>
+<div class="card"><div class="scroll"><table class="tbl">
+<tr><th style="width:19%">缺口</th><th style="width:42%">影響</th><th style="width:39%">建議補件</th></tr>
+<tr><td class="lft">各院來客數</td><td class="lft">目前僅能比較絕對件數，無法計算<b>健檢滲透率（件數 ÷ 同期來客數）</b>。件數受各院門診量體差異影響，跨院比較之公允性受限；亦無法判斷「回落院」係來客減少或轉換率下降。</td><td class="lft">兩觀測窗（2026/03/16–04/10、2026/07/15–08/09）各院來客數。<b>本次最關鍵缺口</b>，補齊後可將全報告主指標改為滲透率。</td></tr>
+<tr><td class="lft">Q2 健檢情境標註</td><td class="lft">Q2 無「健檢情境」欄位，第七節無法跨季比較，亦無法精確還原 Q2 在 Q3 標準下之可比件數。</td><td class="lft">如需嚴格雙口徑，須就 Q2 全期 382 筆補標情境。以 26 天窗口而言影響僅 1 筆，建議暫不補。</td></tr>
+<tr><td class="lft">Q2 POS 商品營收</td><td class="lft">Q2 無 POS 對應資料，商品營收無法跨季比較，本報告已全數排除 Q3 之 $12,048。</td><td class="lft">如需納入，須補 Q2 觀測窗 POS 匯出並完成個案歸戶。</td></tr>
+<tr><td class="lft">寵物 ID 跨季比對</td><td class="lft">無法計算「同一寵物兩季皆做健檢」之回訪率，此為衡量方案黏著度的關鍵指標。</td><td class="lft">Q2 查詢工具未帶寵物 ID，須自 NX 重新匯出 Q2 觀測窗含寵物 ID 之明細。</td></tr>
+<tr><td class="lft">嘉義西區分院客戶承接</td><td class="lft">該院 08/28 起停業，觀測窗內雖全期營運但 0 件。停業後既有健檢客戶之承接院所尚未確認，可能造成客源流失。</td><td class="lft">停業前客戶名單與鄰近院所（嘉義區）之轉介安排。</td></tr>
+<tr><td class="lft">醫師院所異動名單</td><td class="lft">第八節「Q2 有開單、Q3 未開單」清單可能混雜院所調動、排班與離職因素，解讀易失真。</td><td class="lft">兩季醫師在職與駐點院所對照表（HR）。</td></tr>
+<tr><td class="lft">Q3 尚未結算</td><td class="lft">退費、作廢、修正未反映，Q3 數字先天略偏高；7 件待複核依原則不計入，若最終翻轉為通過，件數將上修。</td><td class="lft">季末結算後重跑本報告；待複核案件之醫師端確認結果。</td></tr>
+</table></div></div>
+<div class="note"><b>可直接產出而尚未納入之分析：</b>兩季案件層資料均含品種、性別與逐項收費明細，若有需要可另行補做品種別分析、犬貓性別交叉、以及各院「純健檢無加購」案件之逐案清單（供前線逐案回訪）。</div>
+</section></div><footer>
+2026 慈愛動物醫院 健檢方案｜Q2 · Q3 開跑 26 天推廣成效比較（各院）<br>
+Q2 觀測窗 2026/03/16 – 04/10（已結算）｜Q3 觀測窗 2026/07/15 – 08/09（未結算）<br>
+資料來源：2026 健檢個案查詢工具（Q2 已審核案件層 382 筆）、健檢每週進度儀表板匯出（Q3 逐案判定 113 筆，計入 100 筆）、2026 年健檢方案活動獎金辦法<br>
+本報告數字均為<span class="stamp">試算</span>，Q3 最終以系統正式結算為準；獎金發放依《2026 年健檢方案活動獎金辦法》辦理。
+</footer></body></html>
